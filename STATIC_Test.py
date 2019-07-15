@@ -30,7 +30,11 @@ class app(unittest.TestCase):
 
         # 초기 화면 Projects의 Create 버튼 클릭
         driver.find_element_by_xpath('//b[contains(text(), "Create")]').click()
-        time.sleep(10)
+        # time.sleep(5)
+
+
+
+
 
 # 프로젝트 이름, 키 저장
 # pName="STATIC"
@@ -47,15 +51,6 @@ class app(unittest.TestCase):
 
 # 버튼의 이름으로 찾기
 # elem = driver.find_element_by_xpath('//button[contains(text(), "Submit")]').click()
-
-# 프로젝트 리스트 검색
-# pList = driver.find_element_by_xpath(('//div
-# print(pList)
-# # body > app-root > app-common-layout > div > div > app-projects > div > div.list-layout > div
-#
-# body > app-root > app-common-layout > div > div > app-projects > div > div.list-layout > div > div > div
-# /html/body/app-root/app-common-layout/div/div/app-projects/div/div[3]/div/div/div
-# document.querySelector("body > app-root > app-common-layout > div > div > app-projects > div > div.list-layout > div > div > div")
 
 if __name__ == "__main__":
     unittest.main()
