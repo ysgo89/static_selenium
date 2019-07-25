@@ -58,7 +58,7 @@ class app(unittest.TestCase):
             # driver.find_element_by_css_selector("button.btn.btn-brand-primary")
             driver.find_element_by_xpath('//button[contains(text(), "Submit")]').click()
 
-            time.sleep(4)
+            time.sleep(6)
 
 
 
