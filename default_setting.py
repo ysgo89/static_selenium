@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+# -*- coding: euc-kr -*-
 from nose.tools import assert_is_not
 from selenium import webdriver
 from selenium.common.exceptions import TimeoutException
@@ -10,6 +11,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import NoSuchElementException
 import unittest, time, re
 from testrail import *
+import os
 
 # STATIC 서버 아이디, 패스워드 정보
 usr = "admin@static.io"
@@ -29,6 +31,9 @@ run_id = 240
 case_id = 30722
 msg = 'Test Auto Checking'
 
+# 데이터 업로드 파일 경로
+dPath = "upload.bat"
+
 class app(unittest.TestCase):
     def setUp(self):
         self.driver = webdriver.Chrome()
@@ -43,31 +48,33 @@ class app(unittest.TestCase):
         driver.find_element_by_id("password").send_keys(Keys.RETURN)
         driver.implicitly_wait(30)
 
+        # 프로젝트 전체 삭제하기
+        try :
+            while 1:
+                driver.find_element_by_css_selector("strong > a").click()
+                driver.find_element_by_xpath("//div/a/span").click()
+                driver.find_element_by_xpath("//nav/ul/li[6]/a/span").click()
+                driver.find_element_by_xpath("//div[2]/button").click()
+                #  프로젝트 이름 텍스트로 가져오기
+                key = driver.find_element_by_xpath("//p[2]/strong")
+                key_data = key.text
+                driver.find_element_by_xpath("//div[2]/input").send_keys(key_data)
 
-        # # 프로젝트 전체 삭제하기
-        # try :
-        #     while 1:
-        #         driver.find_element_by_css_selector("strong > a").click()
-        #         driver.find_element_by_xpath("//div/a/span").click()
-        #         driver.find_element_by_xpath("//nav/ul/li[6]/a/span").click()
-        #         driver.find_element_by_xpath("//div[2]/button").click()
-        #         #  프로젝트 이름 텍스트로 가져오기
-        #         key = driver.find_element_by_xpath("//p[2]/strong")
-        #         key_data = key.text
-        #         driver.find_element_by_xpath("//div[2]/input").send_keys(key_data)
-        #
-        #         # key_input = driver.find_element_by_xpath("//div[2]/input")
-        #         # key_input.send_keys(key_data)
-        #         driver.find_element_by_xpath("//div[3]/button/span").click()
-        #
-        # # 프로젝트가 없을 시 예외처리하여 프로젝트 생성 시도
-        # except NoSuchElementException :
-        #     driver.find_element_by_xpath("//div[2]/button/span").click()
-        #     driver.find_element_by_xpath("//mat-form-field/div/div/div/input").send_keys(pName)
-        #     driver.find_element_by_xpath("//mat-form-field[2]/div/div/div/input").send_keys(pKey)
-        #     driver.find_element_by_xpath('//button[contains(text(), "Submit")]').click()
-        #
-        # # TestRail 결과 입력
+                # key_input = driver.find_element_by_xpath("//div[2]/input")
+                # key_input.send_keys(key_data)
+                driver.find_element_by_xpath("//div[3]/button/span").click()
+
+        # 프로젝트가 없을 시 예외처리하여 프로젝트 생성 시도
+        except NoSuchElementException :
+                driver.find_element_by_xpath("//div[2]/button/span").click()
+                driver.find_element_by_xpath("//mat-form-field/div/div/div/input").send_keys(pName)
+                driver.find_element_by_xpath("//mat-form-field[2]/div/div/div/input").send_keys(pKey)
+                driver.find_element_by_xpath('//button[contains(text(), "Submit")]').click()
+
+        # 배치파일 열기
+        os.system(dPath)
+
+        # TestRail 결과 입력
         # try :
         #     assert "STATIC11" in driver.title
         #     status_id = 1
