@@ -1,0 +1,14 @@
+{
+  "STATIC_SERVER_ADDRESS": "211.116.222.164",
+  "TOOLCHAIN_FILENAME": "gcc53.sconf",
+  "PROJECT_KEY": "DPDP",
+  "WORKING_DIR": "./.staticdata",
+  "PARSING": {
+	"C": {
+		"include": ["C:\\MinGW\\include", "C:\\MinGW\\lib\\gcc\\mingw32\\4.9.3\\include"]
+	},
+	"CPP": {
+		"include": ["C:\\MinGW\\include", "C:\\MinGW\\lib\\gcc\\mingw32\\4.9.3\\include"]
+	}
+  }
+}

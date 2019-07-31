@@ -1,0 +1,47 @@
+{
+    "C:/USERS/QATEAM-3/DESKTOP/ZXC_TEST_WITH_SWLEE/STUDY_SAMPLE.H": [
+        "1eb83d6d10c43ae29f43de635cb16ba5",
+        false,
+        false
+    ],
+    "C:/USERS/QATEAM-3/DESKTOP/ZXC_TEST_WITH_SWLEE/STUDY_SAMPLE.C": [
+        "f7713ad3a06227354f54700aff5a9603",
+        false,
+        false
+    ],
+    "C:/MINGW/INCLUDE/_MINGW.H": [
+        "_ffb267b6d85740a3fb028069d4ef0760",
+        true,
+        false
+    ],
+    "C:/MINGW/INCLUDE/STDIO.H": [
+        "_8c3d885fc6675826d749104b26dfc042",
+        true,
+        false
+    ],
+    "C:/MINGW/INCLUDE/SYS/TYPES.H": [
+        "_d7731357267449796773f8c033cc9521",
+        true,
+        false
+    ],
+    "C:/MINGW/INCLUDE/STDLIB.H": [
+        "_ad4ccbb2836f4548fe3dd41fa04131ff",
+        true,
+        false
+    ],
+    "C:/MINGW/LIB/GCC/MINGW32/4.9.3/INCLUDE/STDARG.H": [
+        "_53a98299a7fa6a3ba8f7051e7e49a34a",
+        true,
+        false
+    ],
+    "C:/MINGW/INCLUDE/PARTS/TIME.H": [
+        "_22737902b0c97b29bf541c99f5a3d4e8",
+        true,
+        false
+    ],
+    "C:/MINGW/LIB/GCC/MINGW32/4.9.3/INCLUDE/STDDEF.H": [
+        "_b2efabf61f455ecc8bddad4a6fa39754",
+        true,
+        false
+    ]
+}

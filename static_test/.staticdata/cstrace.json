@@ -1,0 +1,23 @@
+{
+  "14180": {
+    "execve": [
+      "c:\\MinGW\\bin\\gcc.exe",
+      [
+        "gcc",
+        "C:\\Users\\QATEAM-3\\Desktop\\zxc_test_with_swlee\\study_sample.c"
+      ],
+      "C:\\Users\\QATEAM-3\\Desktop\\zxc_test_with_swlee"
+    ],
+    "open": [
+      "C:\\MinGW\\include\\_mingw.h",
+      "C:\\MinGW\\include\\parts\\time.h",
+      "C:\\MinGW\\include\\stdio.h",
+      "C:\\MinGW\\include\\stdlib.h",
+      "C:\\MinGW\\include\\sys\\types.h",
+      "C:\\MinGW\\lib\\gcc\\mingw32\\4.9.3\\include\\stdarg.h",
+      "C:\\MinGW\\lib\\gcc\\mingw32\\4.9.3\\include\\stddef.h",
+      "C:\\Users\\QATEAM-3\\Desktop\\zxc_test_with_swlee\\study_sample.c",
+      "C:\\Users\\QATEAM-3\\Desktop\\zxc_test_with_swlee\\study_sample.h"
+    ]
+  }
+}

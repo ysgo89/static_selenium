@@ -1,0 +1,636 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="87150707-9644-4253-a2b7-b957e5f4e81d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/static_selenium_git.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static_test/.STATICFILE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static_test/.staticdata/CD1/fs/1eb83d6d10c43ae29f43de635cb16ba5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static_test/.staticdata/CD1/fs/_22737902b0c97b29bf541c99f5a3d4e8" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static_test/.staticdata/CD1/fs/_53a98299a7fa6a3ba8f7051e7e49a34a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static_test/.staticdata/CD1/fs/_8c3d885fc6675826d749104b26dfc042" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static_test/.staticdata/CD1/fs/_ad4ccbb2836f4548fe3dd41fa04131ff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static_test/.staticdata/CD1/fs/_b2efabf61f455ecc8bddad4a6fa39754" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static_test/.staticdata/CD1/fs/_d7731357267449796773f8c033cc9521" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static_test/.staticdata/CD1/fs/_ffb267b6d85740a3fb028069d4ef0760" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static_test/.staticdata/CD1/fs/f7713ad3a06227354f54700aff5a9603" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static_test/.staticdata/CD1/fs/fs_hash_map.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static_test/.staticdata/CD1/init.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static_test/.staticdata/CD1/project.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static_test/.staticdata/artifacts.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static_test/.staticdata/cstrace.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static_test/.staticdata/wtrace.cc1.16988" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static_test/.staticdata/wtrace.gcc.14180" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static_test/.staticdata/wtrace.ld.16544" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static_test/1.STATICFILE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static_test/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static_test/TEST1.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static_test/TEST1.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static_test/TEST3.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static_test/TEST3.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static_test/codescroll.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static_test/cs__test__.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static_test/flags.tmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static_test/parser.sconf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static_test/study_sample.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static_test/study_sample.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static_test/test2.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static_test/test2.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static_test/test4.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static_test/test4.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static_test/test5.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static_test/test5.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static_test/test6.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static_test/test6.o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/upload.bat" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExportTestResults" outputFolder="$PROJECT_DIR$" userTempatePath="" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/default_setting.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="327">
+              <caret line="34" selection-start-line="34" selection-end-line="34" selection-end-column="20" />
+              <folding>
+                <element signature="e#24#60#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/upload.bat">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/unittest/__init__.pyi">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="494">
+              <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testrail.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1429">
+              <caret line="106" column="8" selection-start-line="106" selection-start-column="4" selection-end-line="106" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://D:/Python3.7.3/Lib/unittest/case.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="12331">
+              <caret line="662" selection-start-line="662" selection-end-line="662" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://D:/Python3.7.3/Lib/unittest/suite.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1520">
+              <caret line="83" selection-start-line="83" selection-end-line="83" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://D:/Python3.7.3/Lib/unittest/runner.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4085">
+              <caret line="220" selection-start-line="220" selection-end-line="220" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_HOME_DIR$/helpers/pycharm/teamcity/unittestpy.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5662">
+              <caret line="307" selection-start-line="307" selection-end-line="307" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://D:/Python3.7.3/Lib/unittest/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1805">
+              <caret line="100" selection-start-line="100" selection-end-line="100" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_HOME_DIR$/helpers/pycharm/_jb_unittest_runner.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="513">
+              <caret line="32" column="76" selection-start-line="32" selection-start-column="76" selection-end-line="32" selection-end-column="76" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>update_testrail</find>
+      <find>assertEqual</find>
+      <find>text</find>
+      <find>dPath</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/function.py" />
+        <option value="$PROJECT_DIR$/temp.py" />
+        <option value="$PROJECT_DIR$/testrail.py" />
+        <option value="$PROJECT_DIR$/upload.bat" />
+        <option value="$PROJECT_DIR$/STATIC_Test.py" />
+        <option value="$PROJECT_DIR$/default_setting.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="143" />
+    <option name="y" value="354" />
+    <option name="width" value="1493" />
+    <option name="height" value="1080" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="static_selenium_git" type="b2602c69:ProjectViewProjectNode" />
+              <item name="static_selenium_git" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="static_selenium_git" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="C:\Users\QATEAM-3\Desktop\Selenium\static_selenium_git" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="terminal" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\QATEAM-3\Desktop\Selenium\static_selenium_git" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\QATEAM-3\Desktop\Selenium\static_selenium_git" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python tests.Unittests in default_setting.py">
+    <configuration name="testrail" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="static_selenium_git" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testrail.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for default_setting.app.test_static_access" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="static_selenium_git" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;default_setting.app.test_static_access&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in C:/Users/QATEAM-3/Desktop/Selenium/static_selenium_git/function.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="static_selenium_git" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/function.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in C:/Users/QATEAM-3/Desktop/Selenium/static_selenium_git/temp.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="static_selenium_git" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/temp.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in default_setting.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="static_selenium_git" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/default_setting.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Unittests in default_setting.py" />
+        <item itemvalue="Python tests.Unittests for default_setting.app.test_static_access" />
+        <item itemvalue="Python.testrail" />
+        <item itemvalue="Python tests.Unittests in C:/Users/QATEAM-3/Desktop/Selenium/static_selenium_git/function.py" />
+        <item itemvalue="Python tests.Unittests in C:/Users/QATEAM-3/Desktop/Selenium/static_selenium_git/temp.py" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\QATEAM-3\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="87150707-9644-4253-a2b7-b957e5f4e81d" name="Default Changelist" comment="" />
+      <created>1562043910929</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1562043910929</updated>
+    </task>
+    <task id="LOCAL-00001" summary="처음 시도">
+      <created>1562044101094</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1562044101094</updated>
+    </task>
+    <task id="LOCAL-00002" summary="두번째 시도">
+      <created>1562044922118</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1562044922118</updated>
+    </task>
+    <task id="LOCAL-00003" summary="세번째 시도">
+      <created>1562045080434</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1562045080434</updated>
+    </task>
+    <task id="LOCAL-00004" summary="세번째 시도">
+      <created>1562045513036</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1562045513036</updated>
+    </task>
+    <task id="LOCAL-00005" summary="static_test push">
+      <created>1562045868760</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1562045868760</updated>
+    </task>
+    <task id="LOCAL-00006" summary="static_test push">
+      <created>1562045914006</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1562045914006</updated>
+    </task>
+    <task id="LOCAL-00007" summary="static_test push">
+      <created>1563158335165</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1563158335165</updated>
+    </task>
+    <task id="LOCAL-00008" summary="static_test push">
+      <created>1563161045334</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1563161045334</updated>
+    </task>
+    <task id="LOCAL-00009" summary="static_test push">
+      <created>1563947975257</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1563947975257</updated>
+    </task>
+    <task id="LOCAL-00010" summary="static_test push">
+      <created>1563952787806</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1563952787806</updated>
+    </task>
+    <task id="LOCAL-00011" summary="static_test push">
+      <created>1563955738382</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1563955738382</updated>
+    </task>
+    <task id="LOCAL-00012" summary="시간 변경">
+      <created>1563957060269</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1563957060269</updated>
+    </task>
+    <task id="LOCAL-00013" summary="4-&gt;6">
+      <created>1564016319842</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1564016319842</updated>
+    </task>
+    <task id="LOCAL-00014" summary="testrail 연동 스크립트 추가">
+      <created>1564548067875</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1564548067875</updated>
+    </task>
+    <task id="LOCAL-00015" summary="이름 변경">
+      <created>1564554455464</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1564554455465</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Unittests_in_STATIC_Test_py - 2019.07.31 at 14h 41m 04s.xml">
+      <configuration name="Unittests in STATIC_Test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_STATIC_Test_py - 2019.07.31 at 14h 42m 02s.xml">
+      <configuration name="Unittests in STATIC_Test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_STATIC_Test_py - 2019.07.31 at 14h 51m 21s.xml">
+      <configuration name="Unittests in STATIC_Test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_STATIC_Test_py - 2019.07.31 at 14h 52m 44s.xml">
+      <configuration name="Unittests in STATIC_Test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_STATIC_Test_py - 2019.07.31 at 14h 52m 51s.xml">
+      <configuration name="Unittests in STATIC_Test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_STATIC_Test_py - 2019.07.31 at 14h 53m 08s.xml">
+      <configuration name="Unittests in STATIC_Test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_STATIC_Test_py - 2019.07.31 at 14h 55m 21s.xml">
+      <configuration name="Unittests in STATIC_Test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_STATIC_Test_py - 2019.07.31 at 14h 55m 31s.xml">
+      <configuration name="Unittests in STATIC_Test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_STATIC_Test_py - 2019.07.31 at 15h 04m 46s.xml">
+      <configuration name="Unittests in STATIC_Test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_STATIC_Test_py - 2019.07.31 at 15h 06m 09s.xml">
+      <configuration name="Unittests in STATIC_Test.py" configurationId="tests" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1852" height="1096" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13506064" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32398754" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49945053" visible="true" weight="0.3322949" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.31151003" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.33021808" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32883817" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50054944" side_tool="true" weight="0.327818" />
+      <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.49945053" weight="0.32883817" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="처음 시도" />
+    <MESSAGE value="두번째 시도" />
+    <MESSAGE value="세번째 시도" />
+    <MESSAGE value="static_test push" />
+    <MESSAGE value="시간 변경" />
+    <MESSAGE value="4-&gt;6" />
+    <MESSAGE value="testrail 연동 스크립트 추가" />
+    <MESSAGE value="이름 변경" />
+    <option name="LAST_COMMIT_MESSAGE" value="이름 변경" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/test.py" />
+    <entry file="file://$PROJECT_DIR$/Test Results - Unittests_in_STATIC_Test_py.html" />
+    <entry file="file://$PROJECT_DIR$/backup.py" />
+    <entry file="file://$PROJECT_DIR$/temp.py" />
+    <entry file="file://$PROJECT_DIR$/check.png" />
+    <entry file="file://$PROJECT_DIR$/function.py" />
+    <entry file="file://D:/Python3.7.3/Lib/site-packages/testrail_api/_testrail_api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="10" column="13" lean-forward="true" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Python3.7.3/Lib/string.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="131" selection-start-line="131" selection-end-line="131" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Python3.7.3/Lib/site-packages/selenium/webdriver/remote/remote_connection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="373" selection-start-line="373" selection-end-line="373" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Python3.7.3/Lib/site-packages/selenium/webdriver/remote/webdriver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="359" selection-start-line="359" selection-end-line="359" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/unittest/__init__.pyi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Python3.7.3/Lib/unittest/case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12331">
+          <caret line="662" selection-start-line="662" selection-end-line="662" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Python3.7.3/Lib/unittest/suite.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1520">
+          <caret line="83" selection-start-line="83" selection-end-line="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Python3.7.3/Lib/unittest/runner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4085">
+          <caret line="220" selection-start-line="220" selection-end-line="220" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pycharm/teamcity/unittestpy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5662">
+          <caret line="307" selection-start-line="307" selection-end-line="307" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Python3.7.3/Lib/unittest/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1805">
+          <caret line="100" selection-start-line="100" selection-end-line="100" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pycharm/_jb_unittest_runner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="32" column="76" selection-start-line="32" selection-start-column="76" selection-end-line="32" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testrail.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1429">
+          <caret line="106" column="8" selection-start-line="106" selection-start-column="4" selection-end-line="106" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/upload.bat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/default_setting.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="34" selection-start-line="34" selection-end-line="34" selection-end-column="20" />
+          <folding>
+            <element signature="e#24#60#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
