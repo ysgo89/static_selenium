@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
 # -*- coding: euc-kr -*-
-from nose.tools import assert_is_not
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.common.exceptions import NoSuchElementException
@@ -15,10 +14,7 @@ pwd = "!admin"
 pName = "STATIC"
 pKey = "PROKEY1"
 
-# 데이터 업로드 파일 경로
-dPath = "upload.bat"
-
-class app(unittest.TestCase):
+class default(unittest.TestCase):
     def setUp(self):
         self.driver = webdriver.Chrome()
         self.driver.implicitly_wait(30)
@@ -53,8 +49,13 @@ class app(unittest.TestCase):
                 driver.find_element_by_xpath("//mat-form-field[2]/div/div/div/input").send_keys(pKey)
                 driver.find_element_by_xpath('//button[contains(text(), "Submit")]').click()
 
-        # 배치파일 열기
-        os.system(dPath)
+        # 배치파일 확인, 이동, 열기
+        os.getcwd()
+        os.chdir("../..")
+        os.getcwd()
+        os.system("upload.bat")
+
+
 
 if __name__ == "__main__":
     unittest.main()

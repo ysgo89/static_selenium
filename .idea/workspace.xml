@@ -2,50 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87150707-9644-4253-a2b7-b957e5f4e81d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/static_selenium_git.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_test/.STATICFILE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_test/.staticdata/CD1/fs/1eb83d6d10c43ae29f43de635cb16ba5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_test/.staticdata/CD1/fs/_22737902b0c97b29bf541c99f5a3d4e8" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_test/.staticdata/CD1/fs/_53a98299a7fa6a3ba8f7051e7e49a34a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_test/.staticdata/CD1/fs/_8c3d885fc6675826d749104b26dfc042" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_test/.staticdata/CD1/fs/_ad4ccbb2836f4548fe3dd41fa04131ff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_test/.staticdata/CD1/fs/_b2efabf61f455ecc8bddad4a6fa39754" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_test/.staticdata/CD1/fs/_d7731357267449796773f8c033cc9521" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_test/.staticdata/CD1/fs/_ffb267b6d85740a3fb028069d4ef0760" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_test/.staticdata/CD1/fs/f7713ad3a06227354f54700aff5a9603" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_test/.staticdata/CD1/fs/fs_hash_map.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_test/.staticdata/CD1/init.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_test/.staticdata/CD1/project.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_test/.staticdata/artifacts.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_test/.staticdata/cstrace.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_test/.staticdata/wtrace.cc1.16988" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_test/.staticdata/wtrace.gcc.14180" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_test/.staticdata/wtrace.ld.16544" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_test/1.STATICFILE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_test/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_test/TEST1.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_test/TEST1.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_test/TEST3.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_test/TEST3.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_test/codescroll.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_test/cs__test__.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_test/flags.tmp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_test/parser.sconf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_test/study_sample.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_test/study_sample.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_test/test2.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_test/test2.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_test/test4.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_test/test4.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_test/test5.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_test/test5.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_test/test6.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static_test/test6.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/upload.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Test_Suite/C18964.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/default_setting.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test_Suite/default_setting.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -56,13 +15,13 @@
   <component name="ExportTestResults" outputFolder="$PROJECT_DIR$" userTempatePath="" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/default_setting.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Test_Suite/default_setting.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="327">
-              <caret line="34" selection-start-line="34" selection-end-line="34" selection-end-column="20" />
+            <state relative-caret-position="805">
+              <caret line="60" column="19" lean-forward="true" selection-start-line="60" selection-start-column="19" selection-end-line="60" selection-end-column="19" />
               <folding>
-                <element signature="e#24#60#0" expanded="true" />
+                <element signature="e#49#79#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -77,11 +36,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/unittest/__init__.pyi">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Test_Suite/C18964.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
+            <state relative-caret-position="209">
+              <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+              <folding>
+                <element signature="e#0#29#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -89,8 +51,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testrail.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1429">
-              <caret line="106" column="8" selection-start-line="106" selection-start-column="4" selection-end-line="106" selection-end-column="8" />
+            <state relative-caret-position="969">
+              <caret line="53" column="71" lean-forward="true" selection-start-line="53" selection-start-column="71" selection-end-line="53" selection-end-column="71" />
             </state>
           </provider>
         </entry>
@@ -178,13 +140,15 @@
         <option value="$PROJECT_DIR$/testrail.py" />
         <option value="$PROJECT_DIR$/upload.bat" />
         <option value="$PROJECT_DIR$/STATIC_Test.py" />
+        <option value="$PROJECT_DIR$/C18964.py" />
         <option value="$PROJECT_DIR$/default_setting.py" />
+        <option value="$PROJECT_DIR$/Test_Suite/C18964.py" />
+        <option value="$PROJECT_DIR$/Test_Suite/default_setting.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="143" />
-    <option name="y" value="354" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="117" />
     <option name="width" value="1493" />
     <option name="height" value="1080" />
   </component>
@@ -199,6 +163,11 @@
             <path>
               <item name="static_selenium_git" type="b2602c69:ProjectViewProjectNode" />
               <item name="static_selenium_git" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="static_selenium_git" type="b2602c69:ProjectViewProjectNode" />
+              <item name="static_selenium_git" type="462c0819:PsiDirectoryNode" />
+              <item name="Test_Suite" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -223,10 +192,11 @@
     <property name="settings.editor.selected.configurable" value="terminal" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\QATEAM-3\Desktop\Selenium\static_selenium_git" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\QATEAM-3\Desktop\Selenium\static_selenium_git\Test_Suite" />
       <recent name="C:\Users\QATEAM-3\Desktop\Selenium\static_selenium_git" />
     </key>
   </component>
@@ -264,21 +234,21 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for default_setting.app.test_static_access" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for C18964.C18964" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="static_selenium_git" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Test_Suite" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;default_setting.app.test_static_access&quot;" />
+      <option name="_new_target" value="&quot;C18964.C18964&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests in C:/Users/QATEAM-3/Desktop/Selenium/static_selenium_git/function.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for Test_Suite.default_setting" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="static_selenium_git" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -288,21 +258,21 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/function.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="_new_target" value="&quot;Test_Suite.default_setting&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests in C:/Users/QATEAM-3/Desktop/Selenium/static_selenium_git/temp.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests in C18964.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="static_selenium_git" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Test_Suite" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/temp.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/Test_Suite/C18964.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
@@ -316,17 +286,17 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/default_setting.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/Test_Suite/default_setting.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python tests.Unittests in default_setting.py" />
-        <item itemvalue="Python tests.Unittests for default_setting.app.test_static_access" />
+        <item itemvalue="Python tests.Unittests in C18964.py" />
+        <item itemvalue="Python tests.Unittests for C18964.C18964" />
+        <item itemvalue="Python tests.Unittests for Test_Suite.default_setting" />
         <item itemvalue="Python.testrail" />
-        <item itemvalue="Python tests.Unittests in C:/Users/QATEAM-3/Desktop/Selenium/static_selenium_git/function.py" />
-        <item itemvalue="Python tests.Unittests in C:/Users/QATEAM-3/Desktop/Selenium/static_selenium_git/temp.py" />
       </list>
     </recent_temporary>
   </component>
@@ -446,58 +416,82 @@
       <option name="project" value="LOCAL" />
       <updated>1564554455465</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="전체 프로젝트 업로드">
+      <created>1564554514641</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1564554514641</updated>
+    </task>
+    <task id="LOCAL-00017" summary="불필요한 import 제거">
+      <created>1564556741055</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1564556741055</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_STATIC_Test_py - 2019.07.31 at 14h 41m 04s.xml">
-      <configuration name="Unittests in STATIC_Test.py" configurationId="tests" />
+    <history-entry file="Unittests_in_C18964_py - 2019.07.31 at 16h 26m 08s.xml">
+      <configuration name="Unittests in C18964.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_STATIC_Test_py - 2019.07.31 at 14h 42m 02s.xml">
-      <configuration name="Unittests in STATIC_Test.py" configurationId="tests" />
+    <history-entry file="Unittests_in_default_setting_py - 2019.07.31 at 16h 27m 32s.xml">
+      <configuration name="Unittests in default_setting.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_STATIC_Test_py - 2019.07.31 at 14h 51m 21s.xml">
-      <configuration name="Unittests in STATIC_Test.py" configurationId="tests" />
+    <history-entry file="Unittests_in_C18964_py - 2019.07.31 at 16h 28m 48s.xml">
+      <configuration name="Unittests in C18964.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_STATIC_Test_py - 2019.07.31 at 14h 52m 44s.xml">
-      <configuration name="Unittests in STATIC_Test.py" configurationId="tests" />
+    <history-entry file="Unittests_in_C18964_py - 2019.07.31 at 16h 32m 07s.xml">
+      <configuration name="Unittests in C18964.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_STATIC_Test_py - 2019.07.31 at 14h 52m 51s.xml">
-      <configuration name="Unittests in STATIC_Test.py" configurationId="tests" />
+    <history-entry file="Unittests_in_C18964_py - 2019.07.31 at 16h 33m 52s.xml">
+      <configuration name="Unittests in C18964.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_STATIC_Test_py - 2019.07.31 at 14h 53m 08s.xml">
-      <configuration name="Unittests in STATIC_Test.py" configurationId="tests" />
+    <history-entry file="Unittests_in_C18964_py - 2019.07.31 at 16h 36m 48s.xml">
+      <configuration name="Unittests in C18964.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_STATIC_Test_py - 2019.07.31 at 14h 55m 21s.xml">
-      <configuration name="Unittests in STATIC_Test.py" configurationId="tests" />
+    <history-entry file="Unittests_in_default_setting_py - 2019.07.31 at 16h 38m 39s.xml">
+      <configuration name="Unittests in default_setting.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_STATIC_Test_py - 2019.07.31 at 14h 55m 31s.xml">
-      <configuration name="Unittests in STATIC_Test.py" configurationId="tests" />
+    <history-entry file="Unittests_in_default_setting_py - 2019.07.31 at 16h 48m 25s.xml">
+      <configuration name="Unittests in default_setting.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_STATIC_Test_py - 2019.07.31 at 15h 04m 46s.xml">
-      <configuration name="Unittests in STATIC_Test.py" configurationId="tests" />
+    <history-entry file="Unittests_in_default_setting_py - 2019.07.31 at 16h 51m 14s.xml">
+      <configuration name="Unittests in default_setting.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_STATIC_Test_py - 2019.07.31 at 15h 06m 09s.xml">
-      <configuration name="Unittests in STATIC_Test.py" configurationId="tests" />
+    <history-entry file="Unittests_in_default_setting_py - 2019.07.31 at 16h 53m 51s.xml">
+      <configuration name="Unittests in default_setting.py" configurationId="tests" />
     </history-entry>
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1852" height="1096" extended-state="6" />
+    <frame x="117" y="0" width="1493" height="1080" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13506064" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16838488" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32398754" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49945053" visible="true" weight="0.3322949" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49945053" visible="true" weight="0.3379092" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.31151003" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32946146" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.33021808" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32883817" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3284055" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50054944" side_tool="true" weight="0.327818" />
-      <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.49945053" weight="0.32883817" />
+      <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.49945053" weight="0.3284055" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -522,7 +516,9 @@
     <MESSAGE value="4-&gt;6" />
     <MESSAGE value="testrail 연동 스크립트 추가" />
     <MESSAGE value="이름 변경" />
-    <option name="LAST_COMMIT_MESSAGE" value="이름 변경" />
+    <MESSAGE value="전체 프로젝트 업로드" />
+    <MESSAGE value="불필요한 import 제거" />
+    <option name="LAST_COMMIT_MESSAGE" value="불필요한 import 제거" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/test.py" />
@@ -610,8 +606,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/testrail.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1429">
-          <caret line="106" column="8" selection-start-line="106" selection-start-column="4" selection-end-line="106" selection-end-column="8" />
+        <state relative-caret-position="969">
+          <caret line="53" column="71" lean-forward="true" selection-start-line="53" selection-start-column="71" selection-end-line="53" selection-end-column="71" />
         </state>
       </provider>
     </entry>
@@ -622,12 +618,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/default_setting.py">
+    <entry file="file://$PROJECT_DIR$/Test_Suite/default_setting.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="34" selection-start-line="34" selection-end-line="34" selection-end-column="20" />
+        <state relative-caret-position="805">
+          <caret line="60" column="19" lean-forward="true" selection-start-line="60" selection-start-column="19" selection-end-line="60" selection-end-column="19" />
           <folding>
-            <element signature="e#24#60#0" expanded="true" />
+            <element signature="e#49#79#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test_Suite/C18964.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
           </folding>
         </state>
       </provider>
