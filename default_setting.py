@@ -2,15 +2,9 @@
 # -*- coding: euc-kr -*-
 from nose.tools import assert_is_not
 from selenium import webdriver
-from selenium.common.exceptions import TimeoutException
-from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
-from selenium.webdriver.support.ui import Select
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import NoSuchElementException
 import unittest, time, re
-from testrail import *
 import os
 
 # STATIC 서버 아이디, 패스워드 정보
@@ -21,16 +15,6 @@ pwd = "!admin"
 pName = "STATIC"
 pKey = "PROKEY1"
 
-# TestRail 접속 정보
-client = APIClient('http://211.116.223.42/testrail')
-client.user = 'goyoseb@suresofttech.com'
-client.password = 'dudcks123!'
-
-# TestRail run_id, Testcase_id, Message 정보
-run_id = 240
-case_id = 30722
-msg = 'Test Auto Checking'
-
 # 데이터 업로드 파일 경로
 dPath = "upload.bat"
 
@@ -40,6 +24,7 @@ class app(unittest.TestCase):
         self.driver.implicitly_wait(30)
 
     def test_static_access(self):
+        # STATIC 서버 열기 및 로그인
         driver = self.driver
         driver.get("http://211.116.222.92/login")
         driver.implicitly_wait(30)
@@ -59,9 +44,6 @@ class app(unittest.TestCase):
                 key = driver.find_element_by_xpath("//p[2]/strong")
                 key_data = key.text
                 driver.find_element_by_xpath("//div[2]/input").send_keys(key_data)
-
-                # key_input = driver.find_element_by_xpath("//div[2]/input")
-                # key_input.send_keys(key_data)
                 driver.find_element_by_xpath("//div[3]/button/span").click()
 
         # 프로젝트가 없을 시 예외처리하여 프로젝트 생성 시도
@@ -73,19 +55,6 @@ class app(unittest.TestCase):
 
         # 배치파일 열기
         os.system(dPath)
-
-        # TestRail 결과 입력
-        # try :
-        #     assert "STATIC11" in driver.title
-        #     status_id = 1
-        # except :
-        #     status_id = 5
-        #
-        # client.send_post(
-        #     'add_result_for_case/%s/%s' % (run_id, case_id),
-        #     {'status_id': status_id, 'comment': msg,})
-        # print('\n Run ID : %s\n Test Case ID: %s\n Message : %s\n' % (run_id, case_id, msg))
-
 
 if __name__ == "__main__":
     unittest.main()
