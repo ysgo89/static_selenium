@@ -1,3 +1,3 @@
 @echo on
-cd ./static_test
+cd ./src/static_test
 csbuild -- make clean all
