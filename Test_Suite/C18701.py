@@ -1,18 +1,11 @@
 from Test_Suite.default_setting import *
-from testrail import *
 import unittest
-import time
-import os
-
-# TestRail 접속 정보
-client = APIClient('http://211.116.223.42/testrail')
-client.user = 'goyoseb@suresofttech.com'
-client.password = 'dudcks123!'
 
 # TestRail run_id, Test Case_id, Message 정보
 run_id = 240
 case_id = 18701
-msg = 'Test Run complete'
+passMsg = 'Test Run Success !!'
+failMsg = 'Test Run Fail !!'
 
 class C18701(unittest.TestCase):
     def test_C18701(self):
@@ -39,10 +32,18 @@ class C18701(unittest.TestCase):
         except :
             status_id = 5
 
-        client.send_post(
-            'add_result_for_case/%s/%s' % (run_id, case_id),
-            {'status_id': status_id, 'comment': msg,})
-        print('\n Run ID : %s\n Test Case ID: %s\n Message : %s\n' % (run_id, case_id, msg))
+        # Test Rail 결과 입력
+        if status_id == 1:
+            print('\nRun ID : %s\nTest Case ID: %s\nMessage : %s\n' % (run_id, case_id, passMsg))
+            client.send_post(
+                'add_result_for_case/%s/%s' % (run_id, case_id),
+                {'status_id': status_id, 'comment': passMsg, })
+
+        elif status_id == 5:
+            print('\nRun ID : %s\nTest Case ID: %s\nMessage : %s\n' % (run_id, case_id, failMsg))
+            client.send_post(
+                'add_result_for_case/%s/%s' % (run_id, case_id),
+                {'status_id': status_id, 'comment': failMsg, })
 
 if __name__ == "__main__":
     unittest.main()

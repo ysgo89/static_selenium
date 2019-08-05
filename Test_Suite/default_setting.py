@@ -4,7 +4,13 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.common.exceptions import NoSuchElementException
 import unittest, time, re
+from testrail import *
 import os
+
+# TestRail 접속 정보
+client = APIClient('http://211.116.223.42/testrail')
+client.user = 'goyoseb@suresofttech.com'
+client.password = 'dudcks123!'
 
 # STATIC 서버 아이디, 패스워드, 주소 정보
 usr = "admin@static.io"

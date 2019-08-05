@@ -1,21 +1,20 @@
 from Test_Suite.default_setting import *
-from testrail import *
+import unittest, time, re
 
-# TestRail 접속 정보
-client = APIClient('http://211.116.223.42/testrail')
-client.user = 'goyoseb@suresofttech.com'
-client.password = 'dudcks123!'
-
-# TestRail run_id, Testcase_id, Message 정보
+# TestRail run_id, Test Case_id, Message 정보
 run_id = 240
 case_id = 30722
 msg = 'Test Auto Checking'
 
 class C18964(unittest.TestCase):
     def test_C18964(self):
+        # default_setting 수행
         p: default = default()
         p.setUp()
         p.test_static_access()
+
+
+
 
 
 
