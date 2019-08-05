@@ -7,10 +7,12 @@ import unittest, time, re
 from testrail import *
 import os
 
-# TestRail 접속 정보
+# TestRail 접속 및 Message 정보
 client = APIClient('http://211.116.223.42/testrail')
 client.user = 'goyoseb@suresofttech.com'
 client.password = 'dudcks123!'
+passMsg = 'Test Run Success !!'
+failMsg = 'Test Run Fail !!'
 
 # STATIC 서버 아이디, 패스워드, 주소 정보
 usr = "admin@static.io"

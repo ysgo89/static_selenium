@@ -4,7 +4,7 @@ import time
 
 # TestRail run_id, Test Case_id 정보
 run_id = 240
-case_id = 30722
+case_id = 18710
 
 class C18710(unittest.TestCase):
     def test_C18710(self):

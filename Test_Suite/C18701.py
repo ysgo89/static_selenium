@@ -1,11 +1,9 @@
 from Test_Suite.default_setting import *
 import unittest
 
-# TestRail run_id, Test Case_id, Message 정보
+# TestRail run_id, Test Case_id 정보
 run_id = 240
 case_id = 18701
-passMsg = 'Test Run Success !!'
-failMsg = 'Test Run Fail !!'
 
 class C18701(unittest.TestCase):
     def test_C18701(self):
