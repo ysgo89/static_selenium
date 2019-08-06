@@ -10,7 +10,7 @@ class C18713(unittest.TestCase):
         p: default = default()
         p.setUp()
 
-        # 기존에 생성된 Email 입력하여 회원가입 시도
+        # 회원가입 페이지 이동 후 로그인 페이지로 이동
         p.driver.get(addressLogin)
         p.driver.find_element_by_link_text("Create account").click()
         p.driver.find_element_by_link_text("Sign in instead").click()
