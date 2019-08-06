@@ -12,8 +12,9 @@ class C18710(unittest.TestCase):
         p.setUp()
         p.test_static_access()
         time.sleep(1)
+
         # STATIC 비유효한 URL 접속
-        p.driver.get('http://211.116.222.204/project/fds824728142/overview')
+        p.driver.get(address+'/project/fds824728142/overview')
 
         # 404 페이지 문구 확인용 객체 생성
         check1 = "404"
@@ -22,7 +23,6 @@ class C18710(unittest.TestCase):
         check4 = "Please contact your STATIC administrator if you think this is a mistake."
         check5 = "Go home"
 
-        # TestRail 결과 입력
         try :
             # 404 페이지 출력 문구 확인
             self.assertEqual(check1, p.driver.find_element_by_css_selector("span.ml-5").text)
@@ -35,17 +35,17 @@ class C18710(unittest.TestCase):
             status_id = 5
 
         # Test Rail 결과 입력
-        if status_id == 1:
-            print('\nRun ID : %s\nTest Case ID: %s\nMessage : %s\n' % (run_id, case_id, passMsg))
-            client.send_post(
-                'add_result_for_case/%s/%s' % (run_id, case_id),
-                {'status_id': status_id, 'comment': passMsg, })
-
-        elif status_id == 5:
-            print('\nRun ID : %s\nTest Case ID: %s\nMessage : %s\n' % (run_id, case_id, failMsg))
-            client.send_post(
-                'add_result_for_case/%s/%s' % (run_id, case_id),
-                {'status_id': status_id, 'comment': failMsg, })
+        # if status_id == 1:
+        #     print('\nRun ID : %s\nTest Case ID: %s\nMessage : %s\n' % (run_id, case_id, passMsg))
+        #     client.send_post(
+        #         'add_result_for_case/%s/%s' % (run_id, case_id),
+        #         {'status_id': status_id, 'comment': passMsg, })
+        #
+        # elif status_id == 5:
+        #     print('\nRun ID : %s\nTest Case ID: %s\nMessage : %s\n' % (run_id, case_id, failMsg))
+        #     client.send_post(
+        #         'add_result_for_case/%s/%s' % (run_id, case_id),
+        #         {'status_id': status_id, 'comment': failMsg, })
 
 if __name__ == "__main__":
     unittest.main()

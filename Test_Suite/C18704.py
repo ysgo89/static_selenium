@@ -12,7 +12,7 @@ class C18704(unittest.TestCase):
         p.setUp()
 
         # STATIC 접속 -> User에 39자 초과되도록 입력 후 회원가입 시도
-        p.driver.get(address)
+        p.driver.get(addressLogin)
         p.driver.find_element_by_link_text("Create account").click()
         p.driver.find_element_by_id("username").send_keys("aaaaaaaaaabbbbbbbbbbccccccccccdddddddddd")
         p.driver.find_element_by_id("email").send_keys("admin123@static.ioi1")
@@ -20,9 +20,9 @@ class C18704(unittest.TestCase):
         p.driver.find_element_by_xpath("//button").click()
         time.sleep(1)
 
+        # UserName 39자 초과된 문구 확인하기 위한 객체 생성
         valCheck = "Username is too long (maximum is 39 characters)."
 
-        # TestRail 결과 입력
         try :
             # Validate 문구 확인
             self.assertEqual(valCheck, p.driver.find_element_by_xpath("//small[2]").text)

@@ -11,7 +11,7 @@ class C18701(unittest.TestCase):
         p.setUp()
 
         # 비유효한 값으로 로그인
-        p.driver.get(address)
+        p.driver.get(addressLogin)
         p.driver.implicitly_wait(30)
         p.driver.find_element_by_id("email").send_keys("admin@stati.ciopioiii")
         p.driver.find_element_by_id("password").send_keys("abcd12fddd")
@@ -21,7 +21,6 @@ class C18701(unittest.TestCase):
         popCheck = p.driver.find_element_by_xpath("//ngb-alert").text
         print(popCheck)
 
-        # TestRail 결과 입력
         try :
             # 인증 실패 시 출력되는 문구 비교
             self.assertEqual("×\nInvalid Credentials",popCheck)

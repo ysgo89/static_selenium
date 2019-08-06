@@ -12,7 +12,7 @@ class C18694(unittest.TestCase):
         p.setUp()
 
         # STATIC 접속 -> Password 필드에 값을 입력하지 않고 회원가입 시도 하기
-        p.driver.get(address)
+        p.driver.get(addressLogin)
         p.driver.find_element_by_link_text("Create account").click()
         p.driver.find_element_by_id("username").send_keys("goyoseb123")
         p.driver.find_element_by_id("email").send_keys("admin123@static.ioi")
@@ -22,7 +22,6 @@ class C18694(unittest.TestCase):
 
         valCheck = "This field is required."
 
-        # TestRail 결과 입력
         try :
             # Validate 문구 확인
             self.assertEqual(valCheck, p.driver.find_element_by_xpath("//div[3]/small").text)

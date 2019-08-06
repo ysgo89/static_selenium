@@ -1,35 +1,30 @@
 from Test_Suite.default_setting import *
 import unittest
-import time
 
 # Test Case_id 정보
-case_id = 18707
+case_id = 18711
 
-class C18707(unittest.TestCase):
-    def test_C18707(self):
+class C18711(unittest.TestCase):
+    def test_C18711(self):
         # default_setting 수행
         p: default = default()
         p.setUp()
-        p.test_static_access()
+
+        # 기존에 생성된 Email 입력하여 회원가입 시도
+        p.driver.get(addressLogin)
+        p.driver.find_element_by_link_text("Create account").click()
+        p.driver.find_element_by_id("username").send_keys("goyoseb")
+        p.driver.find_element_by_id("email").send_keys("admin@static.io")
+        p.driver.find_element_by_id("password").send_keys("123456789")
+        p.driver.find_element_by_xpath("//button").click()
         time.sleep(1)
 
-        # STATIC 비유효한 URL 접속
-        p.driver.get(address+'/project/ZLfdsfdsdsfdsfdsfsZL4/defect-list/1')
-
-        # Go home 버튼 클릭
-        p.driver.find_element_by_xpath("//a[contains(text(),'Go home')]").click()
-        time.sleep(1)
-
-        # 프로젝트 생성 클릭
-        p.driver.find_element_by_xpath("//div[2]/button/span").click()
-        time.sleep(1)
-
-        # 프로젝트 생성창 이름 객체
-        cpCheck = "Create Project"
+        # 기존에 생성된 Email 입력하여 회원가입 시 출력되는 팝업창 문구 확인 객체 생성
+        valCheck = "×\nAn account for that e-mail already exists. Please enter a different email."
 
         try :
-            # 프로젝트 생성창 이름 비교 확인
-            self.assertEqual(cpCheck, p.driver.find_element_by_css_selector("span.title").text)
+            # validate 문구 비교
+            self.assertEqual(valCheck, p.driver.find_element_by_xpath("//ngb-alert").text)
             status_id = 1
         except :
             status_id = 5

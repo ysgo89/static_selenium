@@ -11,14 +11,13 @@ class C18706(unittest.TestCase):
         p.setUp()
 
         # STATIC 시스템 기본 계정 로그인
-        p.driver.get(address)
+        p.driver.get(addressLogin)
         p.driver.implicitly_wait(30)
         p.driver.find_element_by_id("email").send_keys("admin@static.io")
         p.driver.find_element_by_id("password").send_keys("!admin")
         p.driver.find_element_by_id("password").send_keys(Keys.RETURN)
         p.driver.implicitly_wait(30)
 
-        # TestRail 결과 입력
         try :
             # 시스템 기본 계정 로그인 시 Projects 페이지가 출력하는지 확인
             self.assertEqual("Projects", p.driver.find_element_by_css_selector("div.contents-title").text)

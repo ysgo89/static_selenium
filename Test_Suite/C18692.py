@@ -12,7 +12,7 @@ class C18692(unittest.TestCase):
         p.setUp()
 
         # STATIC 접속 -> Email 필드에 비유효한 값 입력 후 회원가입 시도
-        p.driver.get(address)
+        p.driver.get(addressLogin)
         p.driver.find_element_by_link_text("Create account").click()
         p.driver.find_element_by_id("username").send_keys("goyosebgoyose")
         p.driver.find_element_by_id("email").send_keys("aaaa@a aaa@a.c")
@@ -22,7 +22,6 @@ class C18692(unittest.TestCase):
 
         valCheck = "Email is invalid."
 
-        # TestRail 결과 입력
         try :
             # Validate 문구 확인
             self.assertEqual(valCheck, p.driver.find_element_by_xpath("//div[2]/small").text)

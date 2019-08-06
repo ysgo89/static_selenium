@@ -17,7 +17,7 @@ class C18700(unittest.TestCase):
         valCheck = "Password is too short (minimum is 6 characters)."
 
         # STATIC 접속 후 정상적인 Username과 Email 값 입력
-        p.driver.get(address)
+        p.driver.get(addressLogin)
         p.driver.find_element_by_link_text("Create account").click()
         p.driver.find_element_by_id("username").send_keys("goyoseb")
         p.driver.find_element_by_id("email").send_keys("goyosebb@sure.com")

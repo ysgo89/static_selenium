@@ -18,7 +18,8 @@ run_id = 240
 # STATIC 서버 아이디, 패스워드, 주소 정보
 usr = "admin@static.io"
 pwd = "!admin"
-address = "http://211.116.222.204/login"
+address = "http://211.116.222.204"
+addressLogin = address+"/login"
 
 # 프로젝트 이름, 키
 pName = "STATIC"
@@ -35,7 +36,7 @@ class default(unittest.TestCase):
     def test_static_access(self):
         # STATIC 서버 열기 및 로그인
         driver = self.driver
-        driver.get(address)
+        driver.get(addressLogin)
         driver.implicitly_wait(30)
         driver.find_element_by_id("email").send_keys(usr)
         driver.find_element_by_id("password").send_keys(pwd)
@@ -63,19 +64,19 @@ class default(unittest.TestCase):
         #         driver.find_element_by_xpath('//button[contains(text(), "Submit")]').click()
 
         # 현재 파일의 폴더 위치 저장
-        pathSave = os.path.dirname(os.path.abspath(__file__))
-        print(pathSave)
-
-        # 현재 테스트 케이스의 위치로 이동
-        os.chdir(pathSave)
-        print(os.getcwd())
-
-        # 상위 폴더로 이동
-        os.chdir('../')
-        print(os.getcwd())
-
-        # dPath(upload.bat) 실행
-        os.system(dPath)
+        # pathSave = os.path.dirname(os.path.abspath(__file__))
+        # print(pathSave)
+        #
+        # # 현재 테스트 케이스의 위치로 이동
+        # os.chdir(pathSave)
+        # print(os.getcwd())
+        #
+        # # 상위 폴더로 이동
+        # os.chdir('../')
+        # print(os.getcwd())
+        #
+        # # dPath(upload.bat) 실행
+        # os.system(dPath)
 
 
 if __name__ == "__main__":

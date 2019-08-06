@@ -12,8 +12,9 @@ class C18702(unittest.TestCase):
         p.setUp()
         p.test_static_access()
         time.sleep(1)
+
         # STATIC 비유효한 URL 접속
-        p.driver.get('http://211.116.222.204/project/155ddddd5555555/defect-list/1000000ddddd00000000?revisionSeq=2')
+        p.driver.get(address+'/project/155ddddd5555555/defect-list/1000000ddddd00000000?revisionSeq=2')
 
         # 404 페이지 문구 확인용 객체 생성
         check1 = "404"
@@ -22,7 +23,6 @@ class C18702(unittest.TestCase):
         check4 = "Please contact your STATIC administrator if you think this is a mistake."
         check5 = "Go home"
 
-        # TestRail 결과 입력
         try :
             # 404 페이지 출력 문구 확인
             self.assertEqual(check1, p.driver.find_element_by_css_selector("span.ml-5").text)
