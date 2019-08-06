@@ -3,24 +3,24 @@ import unittest
 import time
 
 # Test Case_id 정보
-case_id = 18691
+case_id = 18692
 
-class C18691(unittest.TestCase):
-    def test_C18691(self):
+class C18692(unittest.TestCase):
+    def test_C18692(self):
         # default_setting 수행
         p: default = default()
         p.setUp()
 
-        # STATIC 접속 -> Email 필드 작성하지 않고 회원가입 시도
+        # STATIC 접속 -> Email 필드에 비유효한 값 입력 후 회원가입 시도
         p.driver.get(address)
         p.driver.find_element_by_link_text("Create account").click()
-        p.driver.find_element_by_id("username").send_keys("goyosebgoyoseb")
-        p.driver.find_element_by_id("email").send_keys("")
+        p.driver.find_element_by_id("username").send_keys("goyosebgoyose")
+        p.driver.find_element_by_id("email").send_keys("aaaa@a aaa@a.c")
         p.driver.find_element_by_id("password").send_keys("1234567")
         p.driver.find_element_by_xpath("//button").click()
         time.sleep(1)
 
-        valCheck = "This field is required."
+        valCheck = "Email is invalid."
 
         # TestRail 결과 입력
         try :
