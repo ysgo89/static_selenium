@@ -11,7 +11,7 @@ class C18694(unittest.TestCase):
         p: default = default()
         p.setUp()
 
-        # STATIC 접속 -> Password 필드에 값을 입력하지 않고 회원가입 시도
+        # STATIC 접속 -> Password 필드에 값을 입력하지 않고 회원가입 시도 하기
         p.driver.get(address)
         p.driver.find_element_by_link_text("Create account").click()
         p.driver.find_element_by_id("username").send_keys("goyoseb123")
