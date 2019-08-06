@@ -2,9 +2,8 @@ from Test_Suite.default_setting import *
 import unittest
 import time
 
-# TestRail run_id, Test Case_id 정보
-run_id = 240
-case_id = 30722
+# Test Case_id 정보
+case_id = 18707
 
 class C18707(unittest.TestCase):
     def test_C18707(self):

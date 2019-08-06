@@ -1,8 +1,7 @@
 from Test_Suite.default_setting import *
 import unittest
 
-# TestRail run_id, Test Case_id 정보
-run_id = 240
+# Test Case_id 정보
 case_id = 18701
 
 class C18701(unittest.TestCase):

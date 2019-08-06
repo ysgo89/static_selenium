@@ -7,12 +7,13 @@ import unittest, time, re
 from testrail import *
 import os
 
-# TestRail 접속 및 Message 정보
+# TestRail 정보 및 Message 정보
 client = APIClient('http://211.116.223.42/testrail')
 client.user = 'goyoseb@suresofttech.com'
 client.password = 'dudcks123!'
 passMsg = 'Test Run Success !!'
 failMsg = 'Test Run Fail !!'
+run_id = 240
 
 # STATIC 서버 아이디, 패스워드, 주소 정보
 usr = "admin@static.io"
@@ -61,17 +62,20 @@ class default(unittest.TestCase):
         #         driver.find_element_by_xpath("//mat-form-field[2]/div/div/div/input").send_keys(pKey)
         #         driver.find_element_by_xpath('//button[contains(text(), "Submit")]').click()
 
-        # # 현재 파일의 폴더 위치 저장
-        # pathSave = os.path.dirname(os.path.realpath(__file__))
-        # print(pathSave)
-        # # 현재 테스트 케이스의 위치로 이동
-        # os.chdir(pathSave)
-        # print(os.getcwd())
-        # # 상위 폴더로 이동
-        # os.chdir('../')
-        # print(os.getcwd())
-        # # dPath(upload.bat) 실행
-        # os.system(dPath)
+        # 현재 파일의 폴더 위치 저장
+        pathSave = os.path.dirname(os.path.abspath(__file__))
+        print(pathSave)
+
+        # 현재 테스트 케이스의 위치로 이동
+        os.chdir(pathSave)
+        print(os.getcwd())
+
+        # 상위 폴더로 이동
+        os.chdir('../')
+        print(os.getcwd())
+
+        # dPath(upload.bat) 실행
+        os.system(dPath)
 
 
 if __name__ == "__main__":
