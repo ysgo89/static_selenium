@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="87150707-9644-4253-a2b7-b957e5f4e81d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Test_Suite/C34338.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test_Suite/C9008.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test_Suite/C9008.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,45 +17,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Test_Suite/C18707.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Test_Suite/C18713.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Test_Suite/C18706.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
-              <folding>
-                <element signature="e#0#40#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Test_Suite/C18704.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="25" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Test_Suite/C18708.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -95,17 +56,53 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Test_Suite/C18700.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="22" column="65" lean-forward="true" selection-start-line="22" selection-start-column="65" selection-end-line="22" selection-end-column="65" />
+            <state relative-caret-position="152">
+              <caret line="13" selection-start-line="13" selection-end-line="36" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Test_Suite/C9008.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Test_Suite/C9008.py">
+        <entry file="file://$PROJECT_DIR$/Test_Suite/C34338.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+            <state relative-caret-position="266">
+              <caret line="25" column="44" lean-forward="true" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Test_Suite/C18692.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Test_Suite/C18691.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="484">
+              <caret line="29" column="16" lean-forward="true" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Test_Suite/C18693.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="370">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
             </state>
           </provider>
         </entry>
@@ -171,6 +168,7 @@
         <option value="$PROJECT_DIR$/Test_Suite/C18702.py" />
         <option value="$PROJECT_DIR$/Test_Suite/C18713.py" />
         <option value="$PROJECT_DIR$/Test_Suite/C9008.py" />
+        <option value="$PROJECT_DIR$/Test_Suite/C34338.py" />
       </list>
     </option>
   </component>
@@ -219,13 +217,13 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\QATEAM-3\Desktop\Selenium\static_selenium_git\Test_Suite" />
-      <recent name="C:\Users\QATEAM-3\Desktop\Selenium\static_selenium_git" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\QATEAM-3\Desktop\Selenium\static_selenium_git" />
       <recent name="C:\Users\QATEAM-3\Desktop\Selenium\static_selenium_git\Test_Suite" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\QATEAM-3\Desktop\Selenium\static_selenium_git\Test_Suite" />
+      <recent name="C:\Users\QATEAM-3\Desktop\Selenium\static_selenium_git" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -240,7 +238,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for C9008.C9008.test_C9008">
+  <component name="RunManager" selected="Python tests.Unittests for C34338.C34338.test_C34338">
     <configuration name="Unittests for C18708.C18708.test_C18708" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="static_selenium_git" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -255,20 +253,6 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for C18711.C18711.test_C18711" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="static_selenium_git" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Test_Suite" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;C18711.C18711.test_C18711&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <configuration name="Unittests for C18713.C18713.test_C18713" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="static_selenium_git" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -280,6 +264,20 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;C18713.C18713.test_C18713&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for C34338.C34338.test_C34338" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="static_selenium_git" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Test_Suite" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;C34338.C34338.test_C34338&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -313,11 +311,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests for C34338.C34338.test_C34338" />
         <item itemvalue="Python tests.Unittests for C9008.C9008.test_C9008" />
         <item itemvalue="Python tests.Unittests in C9008.py" />
         <item itemvalue="Python tests.Unittests for C18713.C18713.test_C18713" />
         <item itemvalue="Python tests.Unittests for C18708.C18708.test_C18708" />
-        <item itemvalue="Python tests.Unittests for C18711.C18711.test_C18711" />
       </list>
     </recent_temporary>
   </component>
@@ -598,25 +596,17 @@
       <option name="project" value="LOCAL" />
       <updated>1565080455067</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="신규 TC 추가">
+      <created>1565141534581</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1565141534581</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_C9008_C9008_test_C9008 - 2019.08.06 at 17h 03m 52s.xml">
-      <configuration name="Unittests for C9008.C9008.test_C9008" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_C9008_C9008_test_C9008 - 2019.08.06 at 17h 09m 36s.xml">
-      <configuration name="Unittests for C9008.C9008.test_C9008" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_C9008_C9008_test_C9008 - 2019.08.06 at 17h 10m 54s.xml">
-      <configuration name="Unittests for C9008.C9008.test_C9008" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_C9008_C9008_test_C9008 - 2019.08.06 at 17h 11m 42s.xml">
-      <configuration name="Unittests for C9008.C9008.test_C9008" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_C9008_C9008_test_C9008 - 2019.08.06 at 17h 13m 08s.xml">
-      <configuration name="Unittests for C9008.C9008.test_C9008" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_for_C9008_C9008_test_C9008 - 2019.08.06 at 17h 15m 07s.xml">
       <configuration name="Unittests for C9008.C9008.test_C9008" configurationId="tests" />
     </history-entry>
@@ -631,6 +621,21 @@
     </history-entry>
     <history-entry file="Unittests_for_C9008_C9008_test_C9008 - 2019.08.06 at 17h 16m 08s.xml">
       <configuration name="Unittests for C9008.C9008.test_C9008" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_C34338_C34338_test_C34338 - 2019.08.07 at 10h 40m 00s.xml">
+      <configuration name="Unittests for C34338.C34338.test_C34338" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_C34338_C34338_test_C34338 - 2019.08.07 at 10h 40m 18s.xml">
+      <configuration name="Unittests for C34338.C34338.test_C34338" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_C34338_C34338_test_C34338 - 2019.08.07 at 10h 41m 03s.xml">
+      <configuration name="Unittests for C34338.C34338.test_C34338" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_C34338_C34338_test_C34338 - 2019.08.07 at 10h 41m 13s.xml">
+      <configuration name="Unittests for C34338.C34338.test_C34338" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_C34338_C34338_test_C34338 - 2019.08.07 at 10h 42m 59s.xml">
+      <configuration name="Unittests for C34338.C34338.test_C34338" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -651,7 +656,7 @@
       <window_info id="Favorites" order="2" sideWeight="0.5005192" side_tool="true" weight="0.13506064" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32398754" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49945053" weight="0.2882788" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49945053" visible="true" weight="0.2882788" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.31151003" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -853,27 +858,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Test_Suite/C18691.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="29" column="16" lean-forward="true" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Test_Suite/C18693.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Test_Suite/C18692.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Test_Suite/C18710.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
@@ -952,10 +936,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Test_Suite/C18700.py">
+    <entry file="file://$PROJECT_DIR$/Test_Suite/C9008.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="22" column="65" lean-forward="true" selection-start-line="22" selection-start-column="65" selection-end-line="22" selection-end-column="65" />
+        <state relative-caret-position="57">
+          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test_Suite/C18692.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test_Suite/C18691.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="29" column="16" lean-forward="true" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test_Suite/C18693.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>
@@ -966,10 +971,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Test_Suite/C9008.py">
+    <entry file="file://$PROJECT_DIR$/Test_Suite/C18700.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+        <state relative-caret-position="152">
+          <caret line="13" selection-start-line="13" selection-end-line="36" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test_Suite/C34338.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="25" column="44" lean-forward="true" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
         </state>
       </provider>
     </entry>
