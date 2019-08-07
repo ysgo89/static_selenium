@@ -3,7 +3,7 @@ import unittest
 import time
 
 # Test Case_id 정보
-case_id = 30722
+case_id = 9008
 
 class C9008(unittest.TestCase):
     def test_C9008(self):
