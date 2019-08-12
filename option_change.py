@@ -1,5 +1,4 @@
 import os
-import sys
 
 FILE_PATH = "C:\\Program Files\\Suresofttech\\STATIC Launcher LITE\\resources\\services.json"
 FILE_PATH1 = "C:\\Program Files\\Suresofttech\\STATIC Launcher LITE\\resources\\services2.json"
