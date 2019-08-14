@@ -5,10 +5,10 @@ FILE_PATH1 = "C:\\Program Files\\Suresofttech\\STATIC Launcher LITE\\resources\\
 FILE_PATH2 = "C:\\Program Files\\Suresofttech\\STATIC Launcher LITE\\resources\\services3.json"
 
 oldline = '"javaOptions": [\n'
-newline = '"javaOptions": [\n "-javaagent:D:\\Automation_Data\\STATIC\\tm-javalib-lower-runtime.jar",\n'
+newline = '"javaOptions": [\n "-javaagent:D:\\\Automation_Data\\\STATIC\\\lower-runtime.jar",\n'
 
 oldline2 = '"javaOptions": []'
-newline2 = '"javaOptions": ["-javaagent:D:\\Automation_Data\\STATIC\\bin\\tm-javalib-lower-runtime.jar"]'
+newline2 = '"javaOptions": ["-javaagent:D:\\\Automation_Data\\\STATIC\\\lower-runtime.jar"]'
 
 with open(FILE_PATH, "rt") as fin:
     with open(FILE_PATH1, "wt") as fout:
