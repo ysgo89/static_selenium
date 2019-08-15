@@ -3,29 +3,33 @@ import unittest
 import time
 
 # Test Case_id 정보
-case_id = 18692
+case_id = 42501
 
-class C18692(unittest.TestCase):
-    def test_C18692(self):
+class C18707(unittest.TestCase):
+    def test_C18707(self):
         # default_setting 수행
         p: default = default()
         p.setUp()
-
-        # STATIC 접속 -> Email 필드에 비유효한 값 입력 후 회원가입 시도
-        p.driver.get(addressLogin)
-        p.driver.find_element_by_link_text("Create account").click()
-        p.driver.find_element_by_id("username").send_keys("goyosebgoyose")
-        p.driver.find_element_by_id("email").send_keys("aaaa@a aaa@a.c")
-        p.driver.find_element_by_id("password").send_keys("1234567")
-        p.driver.find_element_by_xpath("//button").click()
+        p.test_static_access()
         time.sleep(1)
 
-        valCheck = "Email is invalid."
+        # STATIC 비유효한 URL 접속
+        p.driver.get(address+'/project/ZLfdsfdsdsfdsfdsfsZL4/defect-list/1')
+
+        # Go home 버튼 클릭
+        p.driver.find_element_by_xpath("//a[contains(text(),'Go home')]").click()
+        time.sleep(1)
+
+        # 프로젝트 생성 클릭
+        p.driver.find_element_by_xpath("//div[2]/button/span").click()
+        time.sleep(1)
+
+        # 프로젝트 생성창 이름 객체
+        cpCheck = "Create Project"
 
         try :
-            # Validate 문구 확인
-            self.assertEqual(valCheck, p.driver.find_element_by_xpath("//div[2]/small").text)
-            self.assertFalse(p.driver.find_element_by_xpath("//button").is_enabled())
+            # 프로젝트 생성창 이름 비교 확인
+            self.assertEqual(cpCheck, p.driver.find_element_by_css_selector("span.title").text)
             status_id = 1
         except :
             status_id = 5

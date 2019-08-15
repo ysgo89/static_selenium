@@ -3,33 +3,33 @@ import unittest
 import time
 
 # Test Case_id 정보
-case_id = 34338
+case_id = 42511
 
-class C34338(unittest.TestCase):
-    def test_C34338(self):
+class C18700(unittest.TestCase):
+    def test_C18700(self):
         # default_setting 수행
         p: default = default()
         p.setUp()
 
-        # 모든 특수 문자를 담는 배열 객체 생성
-        list = ["`","~","!","@","#","$","%","^","&","*","(",")","-","=","_","+","[","]","{","}",";","'",":",'"',",",".","?","<",">","/"]
-        # 특수 문자 입력 후 validate 확인용 객체 생성
-        valCheck = "Please include at least one alphabetic character."
+        # 비밀번호 6자 미만의 값을 저장하기 위한 배열 객체 생성
+        list = ['a', 'aa', 'aaa', 'aaaa', 'aaaaa']
+        # 비밀번호 입력 후 validate 확인용 객체 생성
+        valCheck = "Password is too short (minimum is 6 characters)."
 
-        # STATIC 접속 후 정상적인 Email, Password 값 입력
+        # STATIC 접속 후 정상적인 Username과 Email 값 입력
         p.driver.get(addressLogin)
         p.driver.find_element_by_link_text("Create account").click()
-        p.driver.find_element_by_id("email").send_keys("goyosebbb@sures.com")
-        p.driver.find_element_by_id("password").send_keys("12345511")
+        p.driver.find_element_by_id("username").send_keys("goyoseb")
+        p.driver.find_element_by_id("email").send_keys("goyosebb@sure.com")
 
         try :
-            # list를 받아와서 첫 번째부터 하나씩 num으로 대입
+            # list를 받아와서 첫 번째부터 하나씩 num으로 반환
             for num in list:
-                p.driver.find_element_by_id("username").clear()
-                p.driver.find_element_by_id("username").send_keys(num)
+                p.driver.find_element_by_id("password").clear()
+                p.driver.find_element_by_id("password").send_keys(num)
                 time.sleep(1)
                 p.driver.find_element_by_xpath("//button").click()
-                self.assertEqual(valCheck, p.driver.find_element_by_xpath("//small[2]").text)
+                self.assertEqual(valCheck, p.driver.find_element_by_xpath("//div[3]/small").text)
                 self.assertFalse(p.driver.find_element_by_xpath("//button").is_enabled())
                 time.sleep(1)
                 status_id = 1

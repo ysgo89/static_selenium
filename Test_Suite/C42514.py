@@ -1,31 +1,30 @@
 from Test_Suite.default_setting import *
 import unittest
-import time
 
 # Test Case_id 정보
-case_id = 18691
+case_id = 42514
 
-class C18691(unittest.TestCase):
-    def test_C18691(self):
+class C18708(unittest.TestCase):
+    def test_C18708(self):
         # default_setting 수행
         p: default = default()
         p.setUp()
 
-        # STATIC 접속 -> Email 필드 작성하지 않고 회원가입 시도
+        # 유효하지 않은 메일 양식으로 회원가입 시도
         p.driver.get(addressLogin)
         p.driver.find_element_by_link_text("Create account").click()
-        p.driver.find_element_by_id("username").send_keys("goyosebgoyoseb")
-        p.driver.find_element_by_id("email").send_keys("")
-        p.driver.find_element_by_id("password").send_keys("1234567")
+        p.driver.find_element_by_id("username").send_keys("goyoseb")
+        p.driver.find_element_by_id("email").send_keys("aaaaa@a.c")
+        p.driver.find_element_by_id("password").send_keys("123456789")
         p.driver.find_element_by_xpath("//button").click()
         time.sleep(1)
 
-        valCheck = "This field is required."
+        # 유효하지 않은 메일 양식을 사용 시 출력되는 문구의 객체 생성
+        valCheck = "×\nAn account for that name/e-mail/password invalid."
 
         try :
-            # Validate 문구 확인
-            self.assertEqual(valCheck, p.driver.find_element_by_xpath("//div[2]/small").text)
-            self.assertFalse(p.driver.find_element_by_xpath("//button").is_enabled())
+            # validate 문구 비교
+            self.assertEqual(valCheck, p.driver.find_element_by_xpath("//ngb-alert").text)
             status_id = 1
         except :
             status_id = 5

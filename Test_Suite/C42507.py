@@ -1,29 +1,31 @@
 from Test_Suite.default_setting import *
 import unittest
+import time
 
 # Test Case_id 정보
-case_id = 18701
+case_id = 42507
 
-class C18701(unittest.TestCase):
-    def test_C18701(self):
+class C18692(unittest.TestCase):
+    def test_C18692(self):
         # default_setting 수행
         p: default = default()
         p.setUp()
 
-        # 비유효한 값으로 로그인
+        # STATIC 접속 -> Email 필드에 비유효한 값 입력 후 회원가입 시도
         p.driver.get(addressLogin)
-        p.driver.implicitly_wait(30)
-        p.driver.find_element_by_id("email").send_keys("admin@stati.ciopioiii")
-        p.driver.find_element_by_id("password").send_keys("abcd12fddd")
-        p.driver.find_element_by_id("password").send_keys(Keys.RETURN)
-        
-        # 팝업창 문구 체크
-        popCheck = p.driver.find_element_by_xpath("//ngb-alert").text
-        print(popCheck)
+        p.driver.find_element_by_link_text("Create account").click()
+        p.driver.find_element_by_id("username").send_keys("goyosebgoyose")
+        p.driver.find_element_by_id("email").send_keys("aaaa@a aaa@a.c")
+        p.driver.find_element_by_id("password").send_keys("1234567")
+        p.driver.find_element_by_xpath("//button").click()
+        time.sleep(1)
+
+        valCheck = "Email is invalid."
 
         try :
-            # 인증 실패 시 출력되는 문구 비교
-            self.assertEqual("×\nInvalid Credentials",popCheck)
+            # Validate 문구 확인
+            self.assertEqual(valCheck, p.driver.find_element_by_xpath("//div[2]/small").text)
+            self.assertFalse(p.driver.find_element_by_xpath("//button").is_enabled())
             status_id = 1
         except :
             status_id = 5

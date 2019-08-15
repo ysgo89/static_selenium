@@ -3,28 +3,29 @@ import unittest
 import time
 
 # Test Case_id 정보
-case_id = 18693
+case_id = 42513
 
-class C18693(unittest.TestCase):
-    def test_C18693(self):
+class C18704(unittest.TestCase):
+    def test_C18704(self):
         # default_setting 수행
         p: default = default()
         p.setUp()
 
-        # STATIC 접속 -> User 필드에 값을 넣지 않고 회원가입 시도
+        # STATIC 접속 -> User에 39자 초과되도록 입력 후 회원가입 시도
         p.driver.get(addressLogin)
         p.driver.find_element_by_link_text("Create account").click()
-        p.driver.find_element_by_id("username").send_keys("")
-        p.driver.find_element_by_id("email").send_keys("admin123@static.ioi")
-        p.driver.find_element_by_id("password").send_keys("1234567")
+        p.driver.find_element_by_id("username").send_keys("aaaaaaaaaabbbbbbbbbbccccccccccdddddddddd")
+        p.driver.find_element_by_id("email").send_keys("admin123@static.ioi1")
+        p.driver.find_element_by_id("password").send_keys("12348567")
         p.driver.find_element_by_xpath("//button").click()
         time.sleep(1)
 
-        valCheck = "This field is required."
+        # UserName 39자 초과된 문구 확인하기 위한 객체 생성
+        valCheck = "Username is too long (maximum is 39 characters)."
 
         try :
             # Validate 문구 확인
-            self.assertEqual(valCheck, p.driver.find_element_by_xpath("//small").text)
+            self.assertEqual(valCheck, p.driver.find_element_by_xpath("//small[2]").text)
             self.assertFalse(p.driver.find_element_by_xpath("//button").is_enabled())
             status_id = 1
         except :

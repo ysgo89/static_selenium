@@ -1,35 +1,26 @@
 from Test_Suite.default_setting import *
 import unittest
-import time
 
 # Test Case_id 정보
-case_id = 18707
+case_id = 42500
 
-class C18707(unittest.TestCase):
-    def test_C18707(self):
+class C18706(unittest.TestCase):
+    def test_C18706(self):
         # default_setting 수행
         p: default = default()
         p.setUp()
-        p.test_static_access()
-        time.sleep(1)
 
-        # STATIC 비유효한 URL 접속
-        p.driver.get(address+'/project/ZLfdsfdsdsfdsfdsfsZL4/defect-list/1')
-
-        # Go home 버튼 클릭
-        p.driver.find_element_by_xpath("//a[contains(text(),'Go home')]").click()
-        time.sleep(1)
-
-        # 프로젝트 생성 클릭
-        p.driver.find_element_by_xpath("//div[2]/button/span").click()
-        time.sleep(1)
-
-        # 프로젝트 생성창 이름 객체
-        cpCheck = "Create Project"
+        # STATIC 시스템 기본 계정 로그인
+        p.driver.get(addressLogin)
+        p.driver.implicitly_wait(30)
+        p.driver.find_element_by_id("email").send_keys("admin@static.io")
+        p.driver.find_element_by_id("password").send_keys("!admin")
+        p.driver.find_element_by_id("password").send_keys(Keys.RETURN)
+        p.driver.implicitly_wait(30)
 
         try :
-            # 프로젝트 생성창 이름 비교 확인
-            self.assertEqual(cpCheck, p.driver.find_element_by_css_selector("span.title").text)
+            # 시스템 기본 계정 로그인 시 Projects 페이지가 출력하는지 확인
+            self.assertEqual("Projects", p.driver.find_element_by_css_selector("div.contents-title").text)
             status_id = 1
         except :
             status_id = 5

@@ -18,7 +18,7 @@ run_id = 240
 # STATIC 서버 아이디, 패스워드, 주소 정보
 usr = "admin@static.io"
 pwd = "!admin"
-address = "http://211.116.222.204"
+address = "http://211.116.223.190"
 addressLogin = address+"/login"
 
 # 프로젝트 이름, 키
@@ -27,6 +27,9 @@ pKey = "PROKEY1"
 
 # 업로드 배치파일 정보
 dPath = "upload.bat"
+
+# License 경로
+licpath = "hardware_check.lic"
 
 class default(unittest.TestCase):
     def setUp(self):
@@ -42,6 +45,31 @@ class default(unittest.TestCase):
         driver.find_element_by_id("password").send_keys(pwd)
         driver.find_element_by_id("password").send_keys(Keys.RETURN)
         driver.implicitly_wait(30)
+
+        try :
+            time.sleep(3)
+            licPathSave = os.path.dirname(os.path.abspath(__file__))
+            print(licPathSave)
+
+            # 현재 테스트 케이스의 위치로 이동
+            os.chdir(licPathSave)
+            print(os.getcwd())
+            #
+            # 상위 폴더로 이동
+            os.chdir('../')
+            print(os.getcwd())
+
+            licFullPath = os.getcwd()+"\hardware_check.lic"
+            print(licFullPath)
+
+            driver.find_element_by_xpath("//div/i").click()
+            driver.find_element_by_css_selector("div.img-btn.p-2 > img").send_keys(licFullPath)
+            driver.find_element_by_css_selector("img").click()
+            time.sleep(3)
+
+        except NoSuchElementException:
+            assert driver.find_element_by_css_selector("div.contents-title")
+            print("라이선스 적용 완료")
 
         # 프로젝트 전체 삭제하기
         # try :
