@@ -3,8 +3,26 @@
   <component name="ChangeListManager">
     <list default="true" id="87150707-9644-4253-a2b7-b957e5f4e81d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TC default.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test_Suite/default_setting.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test_Suite/default_setting.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test_Suite/C41876.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test_Suite/C41876.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test_Suite/C41884.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test_Suite/C41884.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test_Suite/C41888.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test_Suite/C41888.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test_Suite/C42497.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test_Suite/C42497.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test_Suite/C42498.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test_Suite/C42498.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test_Suite/C42500.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test_Suite/C42500.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test_Suite/C42501.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test_Suite/C42501.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test_Suite/C42502.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test_Suite/C42502.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test_Suite/C42503.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test_Suite/C42503.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test_Suite/C42504.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test_Suite/C42504.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test_Suite/C42506.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test_Suite/C42506.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test_Suite/C42507.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test_Suite/C42507.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test_Suite/C42508.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test_Suite/C42508.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test_Suite/C42509.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test_Suite/C42509.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test_Suite/C42511.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test_Suite/C42511.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test_Suite/C42513.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test_Suite/C42513.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test_Suite/C42514.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test_Suite/C42514.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test_Suite/C42515.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test_Suite/C42515.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test_Suite/C42516.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test_Suite/C42516.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test_Suite/default_setting.py" beforeDir="false" afterPath="$PROJECT_DIR$/default_setting.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,103 +36,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Test_Suite/startAll.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="26" lean-forward="true" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Test_Suite/C41876.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="779">
-              <caret line="43" column="63" lean-forward="true" selection-start-line="24" selection-start-column="8" selection-end-line="43" selection-end-column="63" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/option_change.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="25" column="32" lean-forward="true" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Test_Suite/C41884.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="29" lean-forward="true" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Test_Suite/C42516.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-57">
-              <caret line="4" column="15" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Test_Suite/C42509.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="2" selection-end-column="11" />
+            <state relative-caret-position="190">
+              <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
               <folding>
-                <element signature="e#0#40#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Test_Suite/default_setting.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="579">
-              <caret line="74" selection-start-line="74" selection-end-line="74" />
-              <folding>
-                <element signature="e#49#79#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Test_Suite/C42507.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1">
-              <caret selection-end-column="40" />
-              <folding>
-                <element signature="e#0#40#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Test_Suite/C42504.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
-              <folding>
-                <element signature="e#0#40#0" expanded="true" />
+                <element signature="e#0#22#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -138,7 +66,15 @@
       <find>failMsg</find>
       <find>javaOptions</find>
       <find>Projects -&gt; Project Key를 입력하지 않고 프로젝트 생성 시 프로젝트 생성이 불가능하다.</find>
+      <find>infor</find>
+      <find>infor.</find>
+      <find>setglob</find>
     </findStrings>
+    <replaceStrings>
+      <replace>setglob</replace>
+      <replace>setglob.</replace>
+      <replace>setlob</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -182,10 +118,10 @@
         <option value="$PROJECT_DIR$/Test_Suite/C18983.py" />
         <option value="$PROJECT_DIR$/Test_Suite/C34338.py" />
         <option value="$PROJECT_DIR$/test.py" />
-        <option value="$PROJECT_DIR$/Test_Suite/C41876.py" />
         <option value="$PROJECT_DIR$/startAll.py" />
         <option value="$PROJECT_DIR$/Test_Suite/startAll.py" />
         <option value="$PROJECT_DIR$/Test_Suite/default_setting.py" />
+        <option value="$PROJECT_DIR$/Test_Suite/C41876.py" />
       </list>
     </option>
   </component>
@@ -235,8 +171,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\QATEAM-3\Desktop\Selenium\static_selenium_git\Test_Suite" />
       <recent name="C:\Users\QATEAM-3\Desktop\Selenium\static_selenium_git" />
+      <recent name="C:\Users\QATEAM-3\Desktop\Selenium\static_selenium_git\Test_Suite" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\QATEAM-3\Desktop\Selenium\static_selenium_git" />
@@ -718,7 +654,14 @@
       <option name="project" value="LOCAL" />
       <updated>1565880063999</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="전체 실행 가능한 파일 업로드">
+      <created>1565948724237</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1565948724237</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -770,8 +713,8 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.5005192" side_tool="true" weight="0.13506064" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32398754" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49945053" visible="true" weight="0.28764278" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32398754" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49945053" weight="0.28764278" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.31151003" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -815,7 +758,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="두번째 시도" />
     <MESSAGE value="세번째 시도" />
     <MESSAGE value="static_test push" />
     <MESSAGE value="시간 변경" />
@@ -840,7 +782,8 @@
     <MESSAGE value="신규 TC 추가" />
     <MESSAGE value="sys 제거" />
     <MESSAGE value="이름 변경" />
-    <option name="LAST_COMMIT_MESSAGE" value="이름 변경" />
+    <MESSAGE value="전체 실행 가능한 파일 업로드" />
+    <option name="LAST_COMMIT_MESSAGE" value="전체 실행 가능한 파일 업로드" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1124,13 +1067,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Test_Suite/C41876.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="779">
-          <caret line="43" column="63" lean-forward="true" selection-start-line="24" selection-start-column="8" selection-end-line="43" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TC default.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
@@ -1166,12 +1102,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Test_Suite/default_setting.py">
+    <entry file="file://$PROJECT_DIR$/default_setting.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="579">
-          <caret line="74" selection-start-line="74" selection-end-line="74" />
+        <state relative-caret-position="817">
+          <caret line="64" column="9" selection-start-line="64" selection-start-column="9" selection-end-line="64" selection-end-column="9" />
           <folding>
             <element signature="e#49#79#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test_Suite/C41876.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
           </folding>
         </state>
       </provider>

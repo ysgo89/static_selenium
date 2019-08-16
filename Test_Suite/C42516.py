@@ -1,4 +1,4 @@
-from Test_Suite.default_setting import *
+from default_setting import *
 import unittest
 
 # Test Case_id 정보
