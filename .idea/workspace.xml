@@ -1,30 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="87150707-9644-4253-a2b7-b957e5f4e81d" name="Default Changelist" comment="sys 제거">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/static_selenium_git.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/static_selenium_git.iml" afterDir="false" />
+    <list default="true" id="87150707-9644-4253-a2b7-b957e5f4e81d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test_Suite/C18691.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test_Suite/C42506.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test_Suite/C18692.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test_Suite/C42507.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test_Suite/C18693.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test_Suite/C42508.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test_Suite/C18694.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test_Suite/C42509.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test_Suite/C18700.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test_Suite/C42511.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test_Suite/C18701.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test_Suite/C42497.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test_Suite/C18702.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test_Suite/C42498.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test_Suite/C18704.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test_Suite/C42513.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test_Suite/C18706.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test_Suite/C42500.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test_Suite/C18707.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test_Suite/C42501.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test_Suite/C18708.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test_Suite/C42514.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test_Suite/C18710.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test_Suite/C42502.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test_Suite/C18711.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test_Suite/C42515.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test_Suite/C18713.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test_Suite/C42516.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test_Suite/C18949.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test_Suite/C41876.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test_Suite/C18964(진행중).py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test_Suite/C18980.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test_Suite/C41884.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test_Suite/C18983.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test_Suite/C41888.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test_Suite/C34338.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test_Suite/C34338.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test_Suite/C9008.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test_Suite/C42503.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TC default.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Test_Suite/default_setting.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test_Suite/default_setting.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,64 +19,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Test_Suite/C42500.py">
+        <entry file="file://$PROJECT_DIR$/Test_Suite/startAll.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
-              <folding>
-                <element signature="e#0#40#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Test_Suite/C42501.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Test_Suite/C42514.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
-              <folding>
-                <element signature="e#0#40#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Test_Suite/C42502.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
-              <folding>
-                <element signature="e#0#40#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Test_Suite/C42515.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Test_Suite/C42516.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+            <state relative-caret-position="190">
+              <caret line="10" column="26" lean-forward="true" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -105,8 +30,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Test_Suite/C41876.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+            <state relative-caret-position="779">
+              <caret line="43" column="63" lean-forward="true" selection-start-line="24" selection-start-column="8" selection-end-line="43" selection-end-column="63" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/option_change.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="475">
+              <caret line="25" column="32" lean-forward="true" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -121,10 +55,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Test_Suite/C41888.py">
+        <entry file="file://$PROJECT_DIR$/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="7" column="10" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+            <state relative-caret-position="95">
+              <caret line="5" column="29" lean-forward="true" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Test_Suite/C42516.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-57">
+              <caret line="4" column="15" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Test_Suite/C42509.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="2" selection-end-column="11" />
               <folding>
                 <element signature="e#0#40#0" expanded="true" />
               </folding>
@@ -133,10 +85,34 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Test_Suite/C34338.py">
+        <entry file="file://$PROJECT_DIR$/Test_Suite/default_setting.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+            <state relative-caret-position="579">
+              <caret line="74" selection-start-line="74" selection-end-line="74" />
+              <folding>
+                <element signature="e#49#79#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Test_Suite/C42507.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1">
+              <caret selection-end-column="40" />
+              <folding>
+                <element signature="e#0#40#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Test_Suite/C42504.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
               <folding>
                 <element signature="e#0#40#0" expanded="true" />
               </folding>
@@ -170,7 +146,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/function.py" />
         <option value="$PROJECT_DIR$/temp.py" />
         <option value="$PROJECT_DIR$/testrail.py" />
@@ -186,8 +161,6 @@
         <option value="$PROJECT_DIR$/option_change1.py" />
         <option value="$PROJECT_DIR$/aa.bat" />
         <option value="$PROJECT_DIR$/option_change.py" />
-        <option value="$PROJECT_DIR$/Test_Suite/default_setting.py" />
-        <option value="$PROJECT_DIR$/startAll.py" />
         <option value="$PROJECT_DIR$/Test_Suite/C9008.py" />
         <option value="$PROJECT_DIR$/Test_Suite/C42503.py" />
         <option value="$PROJECT_DIR$/Test_Suite/C18691.py" />
@@ -208,6 +181,11 @@
         <option value="$PROJECT_DIR$/Test_Suite/C18980.py" />
         <option value="$PROJECT_DIR$/Test_Suite/C18983.py" />
         <option value="$PROJECT_DIR$/Test_Suite/C34338.py" />
+        <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/Test_Suite/C41876.py" />
+        <option value="$PROJECT_DIR$/startAll.py" />
+        <option value="$PROJECT_DIR$/Test_Suite/startAll.py" />
+        <option value="$PROJECT_DIR$/Test_Suite/default_setting.py" />
       </list>
     </option>
   </component>
@@ -256,11 +234,11 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\QATEAM-3\Desktop\Selenium\static_selenium_git" />
-      <recent name="C:\Users\QATEAM-3\Desktop\Selenium\static_selenium_git\Test_Suite" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\QATEAM-3\Desktop\Selenium\static_selenium_git\Test_Suite" />
+      <recent name="C:\Users\QATEAM-3\Desktop\Selenium\static_selenium_git" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\QATEAM-3\Desktop\Selenium\static_selenium_git" />
       <recent name="C:\Users\QATEAM-3\Desktop\Selenium\static_selenium_git\Test_Suite" />
     </key>
@@ -277,7 +255,70 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for default_setting.default.test_static_access">
+  <component name="RunManager" selected="Python.startAll (3)">
+    <configuration name="startAll (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="static_selenium_git" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Test_Suite" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\QATEAM-3\Desktop\Selenium\static_selenium_git\Test_Suite\startAll.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="startAll (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="static_selenium_git" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\QATEAM-3\Desktop\Selenium\static_selenium_git\Test_Suite\startAll.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="startAll (3)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="static_selenium_git" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Test_Suite" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Test_Suite/startAll.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="startAll" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="static_selenium_git" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -290,7 +331,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/startAll.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\QATEAM-3\Desktop\Selenium\static_selenium_git\Test_Suite\startAll.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -299,69 +340,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for Test_Suite.C42503.C9008.test_C9008" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="static_selenium_git" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Test_Suite" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;Test_Suite.C42503.C9008.test_C9008&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests for default_setting.default" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="static_selenium_git" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Test_Suite" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;default_setting.default&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests for default_setting.default.test_static_access" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="static_selenium_git" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Test_Suite" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;default_setting.default.test_static_access&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests in default_setting.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="static_selenium_git" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Test_Suite" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/Test_Suite/default_setting.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests for default_setting.default.test_static_access" />
-        <item itemvalue="Python tests.Unittests for Test_Suite.C42503.C9008.test_C9008" />
+        <item itemvalue="Python.startAll (3)" />
+        <item itemvalue="Python.startAll (2)" />
+        <item itemvalue="Python.test" />
         <item itemvalue="Python.startAll" />
-        <item itemvalue="Python tests.Unittests for default_setting.default" />
-        <item itemvalue="Python tests.Unittests in default_setting.py" />
+        <item itemvalue="Python.startAll (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -705,16 +711,17 @@
       <option name="project" value="LOCAL" />
       <updated>1565747333501</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="이름 변경">
+      <created>1565880063998</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1565880063999</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_default_setting_default_test_static_access - 2019.08.14 at 14h 08m 51s.xml">
-      <configuration name="Unittests for default_setting.default.test_static_access" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_default_setting_default - 2019.08.14 at 14h 08m 56s.xml">
-      <configuration name="Unittests for default_setting.default" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_for_default_setting_default_test_static_access - 2019.08.14 at 14h 34m 04s.xml">
       <configuration name="Unittests for default_setting.default.test_static_access" configurationId="tests" />
     </history-entry>
@@ -739,6 +746,12 @@
     <history-entry file="Unittests_for_C9008_C9008_test_C9008 - 2019.08.14 at 15h 08m 45s.xml">
       <configuration name="Unittests for C9008.C9008.test_C9008" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_for_default_setting_default_test_static_access - 2019.08.15 at 23h 37m 57s.xml">
+      <configuration name="Unittests for default_setting.default.test_static_access" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_C41876_py - 2019.08.16 at 18h 25m 58s.xml">
+      <configuration name="Unittests in C41876.py" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -758,7 +771,7 @@
       <window_info id="Favorites" order="2" sideWeight="0.5005192" side_tool="true" weight="0.13506064" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32398754" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49945053" weight="0.2882788" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49945053" visible="true" weight="0.28764278" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.31151003" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -808,7 +821,6 @@
     <MESSAGE value="시간 변경" />
     <MESSAGE value="4-&gt;6" />
     <MESSAGE value="testrail 연동 스크립트 추가" />
-    <MESSAGE value="이름 변경" />
     <MESSAGE value="전체 프로젝트 업로드" />
     <MESSAGE value="불필요한 import 제거" />
     <MESSAGE value="test_suite 폴더 생성" />
@@ -827,10 +839,20 @@
     <MESSAGE value="TC ID 변경" />
     <MESSAGE value="신규 TC 추가" />
     <MESSAGE value="sys 제거" />
-    <option name="LAST_COMMIT_MESSAGE" value="sys 제거" />
+    <MESSAGE value="이름 변경" />
+    <option name="LAST_COMMIT_MESSAGE" value="이름 변경" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Test_Suite/C42507.py</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test.py" />
     <entry file="file://$PROJECT_DIR$/Test Results - Unittests_in_STATIC_Test_py.html" />
     <entry file="file://$PROJECT_DIR$/backup.py" />
     <entry file="file://$PROJECT_DIR$/temp.py" />
@@ -939,23 +961,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/option_change.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/startAll.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="9" column="16" lean-forward="true" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/hardware_check.lic">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -963,27 +968,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TC default.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/testrail.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
           <caret line="13" column="15" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Test_Suite/default_setting.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1786">
-          <caret line="99" column="28" lean-forward="true" selection-start-line="99" selection-start-column="28" selection-end-line="99" selection-end-column="28" />
-          <folding>
-            <element signature="e#49#79#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1004,23 +992,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Test_Suite/C42507.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Test_Suite/C42508.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="20">
-          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Test_Suite/C42509.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
           <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
         </state>
       </provider>
@@ -1069,13 +1043,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Test_Suite/C42501.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Test_Suite/C42514.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
@@ -1103,27 +1070,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Test_Suite/C42516.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Test_Suite/C41876.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Test_Suite/C41884.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Test_Suite/C41888.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
@@ -1134,12 +1080,98 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Test_Suite/C34338.py">
+    <entry file="file://$PROJECT_DIR$/Test_Suite/C42501.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-333">
+          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test_Suite/C42504.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test_Suite/C42507.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1">
+          <caret selection-end-column="40" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test_Suite/C42509.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="2" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test_Suite/C41884.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
           <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test_Suite/C41876.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="779">
+          <caret line="43" column="63" lean-forward="true" selection-start-line="24" selection-start-column="8" selection-end-line="43" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TC default.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="27" column="30" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test_Suite/C42516.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-57">
+          <caret line="4" column="15" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/option_change.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" column="32" lean-forward="true" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="29" lean-forward="true" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test_Suite/startAll.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="26" lean-forward="true" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test_Suite/default_setting.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="579">
+          <caret line="74" selection-start-line="74" selection-end-line="74" />
           <folding>
-            <element signature="e#0#40#0" expanded="true" />
+            <element signature="e#49#79#0" expanded="true" />
           </folding>
         </state>
       </provider>
