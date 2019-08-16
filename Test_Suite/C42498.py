@@ -1,4 +1,4 @@
-from default_setting import *
+import default_setting
 import unittest
 import time
 
@@ -8,13 +8,14 @@ case_id = 42498
 class C18702(unittest.TestCase):
     def test_C18702(self):
         # default_setting 수행
-        p: default = default()
+        setglob = default_setting
+        p = default_setting.default()
         p.setUp()
         p.test_static_access()
         time.sleep(1)
 
         # STATIC 비유효한 URL 접속
-        p.driver.get(address+'/project/155ddddd5555555/defect-list/1000000ddddd00000000?revisionSeq=2')
+        p.driver.get(setglob.address+'/project/155ddddd5555555/defect-list/1000000ddddd00000000?revisionSeq=2')
 
         # 404 페이지 문구 확인용 객체 생성
         check1 = "404"
@@ -36,16 +37,16 @@ class C18702(unittest.TestCase):
 
         # Test Rail 결과 입력
         if status_id == 1:
-            print('\nRun ID : %s\nTest Case ID: %s\nMessage : %s\n' % (run_id, case_id, passMsg))
-            client.send_post(
-                'add_result_for_case/%s/%s' % (run_id, case_id),
-                {'status_id': status_id, 'comment': passMsg, })
+            print('\nRun ID : %s\nTest Case ID: %s\nMessage : %s\n' % (setglob.run_id, case_id, setglob.passMsg))
+            setglob.client.send_post(
+                'add_result_for_case/%s/%s' % (setglob.run_id, case_id),
+                {'status_id': status_id, 'comment': setglob.passMsg, })
 
         elif status_id == 5:
-            print('\nRun ID : %s\nTest Case ID: %s\nMessage : %s\n' % (run_id, case_id, failMsg))
-            client.send_post(
-                'add_result_for_case/%s/%s' % (run_id, case_id),
-                {'status_id': status_id, 'comment': failMsg, })
+            print('\nRun ID : %s\nTest Case ID: %s\nMessage : %s\n' % (setglob.run_id, case_id, setglob.failMsg))
+            setglob.client.send_post(
+                'add_result_for_case/%s/%s' % (setglob.run_id, case_id),
+                {'status_id': status_id, 'comment': setglob.failMsg, })
 
 if __name__ == "__main__":
     unittest.main()

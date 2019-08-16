@@ -1,4 +1,4 @@
-from default_setting import *
+import default_setting
 import unittest
 import time
 
@@ -8,7 +8,8 @@ case_id = 41884
 class C18980(unittest.TestCase):
     def test_C18980(self):
         # default_setting 수행
-        p: default = default()
+        setglob = default_setting
+        p = default_setting.default()
         p.setUp()
         p.test_static_access()
 
@@ -18,7 +19,7 @@ class C18980(unittest.TestCase):
 
         # 프로젝트 생성 버튼 클릭 후 Project Key에 공백 포함된 값을 입력
         p.driver.find_element_by_xpath("//div[2]/button/span").click()
-        p.driver.find_element_by_xpath("//mat-form-field/div/div/div/input").send_keys(pName)
+        p.driver.find_element_by_xpath("//mat-form-field/div/div/div/input").send_keys(setglob.pName)
         p.driver.find_element_by_xpath("//mat-form-field[2]/div/div/div/input").send_keys("aaa aaa")
         p.driver.find_element_by_xpath('//button[contains(text(), "Submit")]').click()
         time.sleep(1)
@@ -31,18 +32,18 @@ class C18980(unittest.TestCase):
         except :
             status_id = 5
 
-        # Test Rail 결과 입력
+            # Test Rail 결과 입력
         if status_id == 1:
-            print('\nRun ID : %s\nTest Case ID: %s\nMessage : %s\n' % (run_id, case_id, passMsg))
-            client.send_post(
-                'add_result_for_case/%s/%s' % (run_id, case_id),
-                {'status_id': status_id, 'comment': passMsg, })
+            print('\nRun ID : %s\nTest Case ID: %s\nMessage : %s\n' % (setglob.run_id, case_id, setglob.passMsg))
+            setglob.client.send_post(
+                'add_result_for_case/%s/%s' % (setglob.run_id, case_id),
+                {'status_id': status_id, 'comment': setglob.passMsg, })
 
         elif status_id == 5:
-            print('\nRun ID : %s\nTest Case ID: %s\nMessage : %s\n' % (run_id, case_id, failMsg))
-            client.send_post(
-                'add_result_for_case/%s/%s' % (run_id, case_id),
-                {'status_id': status_id, 'comment': failMsg, })
+            print('\nRun ID : %s\nTest Case ID: %s\nMessage : %s\n' % (setglob.run_id, case_id, setglob.failMsg))
+            setglob.client.send_post(
+                'add_result_for_case/%s/%s' % (setglob.run_id, case_id),
+                {'status_id': status_id, 'comment': setglob.failMsg, })
 
 if __name__ == "__main__":
     unittest.main()
