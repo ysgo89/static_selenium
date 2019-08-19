@@ -11,15 +11,15 @@ class C18713(unittest.TestCase):
         p = default_setting.default()
         p.setUp()
 
-        # 회원가입 페이지 이동 후 로그인 페이지로 이동
-        p.driver.get(setglob.addressLogin)
-        p.driver.find_element_by_link_text("Create account").click()
-        p.driver.find_element_by_link_text("Sign in instead").click()
+        try:
+            # 회원가입 페이지 이동 후 로그인 페이지로 이동
+            p.driver.get(setglob.addressLogin)
+            p.driver.find_element_by_link_text("Create account").click()
+            p.driver.find_element_by_link_text("Sign in instead").click()
 
-        # 회원가입 팝업창에서 로그인 페이지로 돌아와 로그인 페이지가 맞는지 확인하기 위한 객체 생성
-        valCheck = "Sign in"
+            # 회원가입 팝업창에서 로그인 페이지로 돌아와 로그인 페이지가 맞는지 확인하기 위한 객체 생성
+            valCheck = "Sign in"
 
-        try :
             # validate 문구 비교
             self.assertEqual(valCheck, p.driver.find_element_by_css_selector("span.headline").text)
             status_id = 1

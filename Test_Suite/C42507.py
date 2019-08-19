@@ -12,18 +12,18 @@ class C18692(unittest.TestCase):
         p = default_setting.default()
         p.setUp()
 
-        # STATIC 접속 -> Email 필드에 비유효한 값 입력 후 회원가입 시도
-        p.driver.get(setglob.addressLogin)
-        p.driver.find_element_by_link_text("Create account").click()
-        p.driver.find_element_by_id("username").send_keys("goyosebgoyose")
-        p.driver.find_element_by_id("email").send_keys("aaaa@a aaa@a.c")
-        p.driver.find_element_by_id("password").send_keys("1234567")
-        p.driver.find_element_by_xpath("//button").click()
-        time.sleep(1)
+        try:
+            # STATIC 접속 -> Email 필드에 비유효한 값 입력 후 회원가입 시도
+            p.driver.get(setglob.addressLogin)
+            p.driver.find_element_by_link_text("Create account").click()
+            p.driver.find_element_by_id("username").send_keys("goyosebgoyose")
+            p.driver.find_element_by_id("email").send_keys("aaaa@a aaa@a.c")
+            p.driver.find_element_by_id("password").send_keys("1234567")
+            p.driver.find_element_by_xpath("//button").click()
+            time.sleep(1)
 
-        valCheck = "Email is invalid."
+            valCheck = "Email is invalid."
 
-        try :
             # Validate 문구 확인
             self.assertEqual(valCheck, p.driver.find_element_by_xpath("//div[2]/small").text)
             self.assertFalse(p.driver.find_element_by_xpath("//button").is_enabled())

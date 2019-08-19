@@ -24,15 +24,16 @@ class C18983(unittest.TestCase):
         valCheck = "Key must only alphanumeric characters."
         valCheck1 = "Create Project"
 
-        # random, sample 함수를 이용해 프로젝트 키에 한글+숫자 입력
-        p.driver.find_element_by_xpath("//div[2]/button/span").click()
-        p.driver.find_element_by_xpath("//mat-form-field/div/div/div/input").send_keys(setglob.pName)
-        p.driver.find_element_by_xpath("//mat-form-field[2]/div/div/div/input").send_keys(s)
-        p.driver.find_element_by_xpath("//mat-form-field[2]/div/div/div/input").send_keys(i)
-        p.driver.find_element_by_xpath('//button[contains(text(), "Submit")]').click()
-        time.sleep(1)
 
-        try :
+        try:
+            # random, sample 함수를 이용해 프로젝트 키에 한글+숫자 입력
+            p.driver.find_element_by_xpath("//div[2]/button/span").click()
+            p.driver.find_element_by_xpath("//mat-form-field/div/div/div/input").send_keys(setglob.pName)
+            p.driver.find_element_by_xpath("//mat-form-field[2]/div/div/div/input").send_keys(s)
+            p.driver.find_element_by_xpath("//mat-form-field[2]/div/div/div/input").send_keys(i)
+            p.driver.find_element_by_xpath('//button[contains(text(), "Submit")]').click()
+            time.sleep(1)
+
             self.assertEqual(valCheck, p.driver.find_element_by_id("mat-error-1").text)
             self.assertEqual(valCheck1, p.driver.find_element_by_css_selector("span.title").text)
             time.sleep(1)

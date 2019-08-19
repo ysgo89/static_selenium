@@ -11,18 +11,18 @@ class C18701(unittest.TestCase):
         p = default_setting.default()
         p.setUp()
 
-        # 비유효한 값으로 로그인
-        p.driver.get(setglob.addressLogin)
-        p.driver.implicitly_wait(30)
-        p.driver.find_element_by_id("email").send_keys("admin@stati.ciopioiii")
-        p.driver.find_element_by_id("password").send_keys("abcd12fddd")
-        p.driver.find_element_by_id("password").send_keys(setglob.Keys.RETURN)
+        try:
+            # 비유효한 값으로 로그인
+            p.driver.get(setglob.addressLogin)
+            p.driver.implicitly_wait(30)
+            p.driver.find_element_by_id("email").send_keys("admin@stati.ciopioiii")
+            p.driver.find_element_by_id("password").send_keys("abcd12fddd")
+            p.driver.find_element_by_id("password").send_keys(setglob.Keys.RETURN)
         
-        # 팝업창 문구 체크
-        popCheck = p.driver.find_element_by_xpath("//ngb-alert").text
-        print(popCheck)
+            # 팝업창 문구 체크
+            popCheck = p.driver.find_element_by_xpath("//ngb-alert").text
+            print(popCheck)
 
-        try :
             # 인증 실패 시 출력되는 문구 비교
             self.assertEqual("×\nInvalid Credentials",popCheck)
             status_id = 1

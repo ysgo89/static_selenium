@@ -17,13 +17,14 @@ class C34338(unittest.TestCase):
         # 특수 문자 입력 후 validate 확인용 객체 생성
         valCheck = "Please include at least one alphabetic character."
 
-        # STATIC 접속 후 정상적인 Email, Password 값 입력
-        p.driver.get(setglob.addressLogin)
-        p.driver.find_element_by_link_text("Create account").click()
-        p.driver.find_element_by_id("email").send_keys("goyosebbb@sures.com")
-        p.driver.find_element_by_id("password").send_keys("12345511")
+        try:
+            # STATIC 접속 후 정상적인 Email, Password 값 입력
+            p.driver.get(setglob.addressLogin)
+            p.driver.find_element_by_link_text("Create account").click()
+            p.driver.find_element_by_id("email").send_keys("goyosebbb@sures.com")
+            p.driver.find_element_by_id("password").send_keys("12345511")
 
-        try :
+
             # list를 받아와서 첫 번째부터 하나씩 num으로 대입
             for num in list:
                 p.driver.find_element_by_id("username").clear()

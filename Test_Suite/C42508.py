@@ -12,18 +12,18 @@ class C18693(unittest.TestCase):
         p = default_setting.default()
         p.setUp()
 
-        # STATIC 접속 -> User 필드에 값을 넣지 않고 회원가입 시도
-        p.driver.get(setglob.addressLogin)
-        p.driver.find_element_by_link_text("Create account").click()
-        p.driver.find_element_by_id("username").send_keys("")
-        p.driver.find_element_by_id("email").send_keys("admin123@static.ioi")
-        p.driver.find_element_by_id("password").send_keys("1234567")
-        p.driver.find_element_by_xpath("//button").click()
-        time.sleep(1)
+        try:
+            # STATIC 접속 -> User 필드에 값을 넣지 않고 회원가입 시도
+            p.driver.get(setglob.addressLogin)
+            p.driver.find_element_by_link_text("Create account").click()
+            p.driver.find_element_by_id("username").send_keys("")
+            p.driver.find_element_by_id("email").send_keys("admin123@static.ioi")
+            p.driver.find_element_by_id("password").send_keys("1234567")
+            p.driver.find_element_by_xpath("//button").click()
+            time.sleep(1)
 
-        valCheck = "This field is required."
+            valCheck = "This field is required."
 
-        try :
             # Validate 문구 확인
             self.assertEqual(valCheck, p.driver.find_element_by_xpath("//small").text)
             self.assertFalse(p.driver.find_element_by_xpath("//button").is_enabled())

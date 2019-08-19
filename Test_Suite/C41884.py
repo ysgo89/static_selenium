@@ -17,14 +17,15 @@ class C18980(unittest.TestCase):
         valCheck = "Please remove whitespace."
         valCheck1 = "Create Project"
 
-        # 프로젝트 생성 버튼 클릭 후 Project Key에 공백 포함된 값을 입력
-        p.driver.find_element_by_xpath("//div[2]/button/span").click()
-        p.driver.find_element_by_xpath("//mat-form-field/div/div/div/input").send_keys(setglob.pName)
-        p.driver.find_element_by_xpath("//mat-form-field[2]/div/div/div/input").send_keys("aaa aaa")
-        p.driver.find_element_by_xpath('//button[contains(text(), "Submit")]').click()
-        time.sleep(1)
 
-        try :
+        try:
+            # 프로젝트 생성 버튼 클릭 후 Project Key에 공백 포함된 값을 입력
+            p.driver.find_element_by_xpath("//div[2]/button/span").click()
+            p.driver.find_element_by_xpath("//mat-form-field/div/div/div/input").send_keys(setglob.pName)
+            p.driver.find_element_by_xpath("//mat-form-field[2]/div/div/div/input").send_keys("aaa aaa")
+            p.driver.find_element_by_xpath('//button[contains(text(), "Submit")]').click()
+            time.sleep(1)
+
             self.assertEqual(valCheck, p.driver.find_element_by_id("mat-error-3").text)
             self.assertEqual(valCheck1, p.driver.find_element_by_css_selector("span.title").text)
             time.sleep(1)

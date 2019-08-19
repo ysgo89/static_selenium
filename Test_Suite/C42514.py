@@ -12,19 +12,19 @@ class C18708(unittest.TestCase):
         p = default_setting.default()
         p.setUp()
 
-        # 유효하지 않은 메일 양식으로 회원가입 시도
-        p.driver.get(setglob.addressLogin)
-        p.driver.find_element_by_link_text("Create account").click()
-        p.driver.find_element_by_id("username").send_keys("goyoseb")
-        p.driver.find_element_by_id("email").send_keys("aaaaa@a.c")
-        p.driver.find_element_by_id("password").send_keys("123456789")
-        p.driver.find_element_by_xpath("//button").click()
-        time.sleep(1)
+        try:
+            # 유효하지 않은 메일 양식으로 회원가입 시도
+            p.driver.get(setglob.addressLogin)
+            p.driver.find_element_by_link_text("Create account").click()
+            p.driver.find_element_by_id("username").send_keys("goyoseb")
+            p.driver.find_element_by_id("email").send_keys("aaaaa@a.c")
+            p.driver.find_element_by_id("password").send_keys("123456789")
+            p.driver.find_element_by_xpath("//button").click()
+            time.sleep(1)
 
-        # 유효하지 않은 메일 양식을 사용 시 출력되는 문구의 객체 생성
-        valCheck = "×\nAn account for that name/e-mail/password invalid."
+            # 유효하지 않은 메일 양식을 사용 시 출력되는 문구의 객체 생성
+            valCheck = "×\nAn account for that name/e-mail/password invalid."
 
-        try :
             # validate 문구 비교
             self.assertEqual(valCheck, p.driver.find_element_by_xpath("//ngb-alert").text)
             status_id = 1

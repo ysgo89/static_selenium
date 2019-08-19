@@ -14,17 +14,17 @@ class C18702(unittest.TestCase):
         p.test_static_access()
         time.sleep(1)
 
-        # STATIC 비유효한 URL 접속
-        p.driver.get(setglob.address+'/project/155ddddd5555555/defect-list/1000000ddddd00000000?revisionSeq=2')
+        try:
+            # STATIC 비유효한 URL 접속
+            p.driver.get(setglob.address+'/project/155ddddd5555555/defect-list/1000000ddddd00000000?revisionSeq=2')
 
-        # 404 페이지 문구 확인용 객체 생성
-        check1 = "404"
-        check2 = "The page you're looking for could not be found."
-        check3 = "Make sure the address is correct and that the page hasn't moved."
-        check4 = "Please contact your STATIC administrator if you think this is a mistake."
-        check5 = "Go home"
+            # 404 페이지 문구 확인용 객체 생성
+            check1 = "404"
+            check2 = "The page you're looking for could not be found."
+            check3 = "Make sure the address is correct and that the page hasn't moved."
+            check4 = "Please contact your STATIC administrator if you think this is a mistake."
+            check5 = "Go home"
 
-        try :
             # 404 페이지 출력 문구 확인
             self.assertEqual(check1, p.driver.find_element_by_css_selector("span.ml-5").text)
             self.assertEqual(check2, p.driver.find_element_by_xpath("//h3").text)

@@ -15,13 +15,14 @@ class C9008(unittest.TestCase):
         # 비밀번호 입력 후 validate 확인용 객체 생성
         valCheck = "Please include at least one alphabetic character."
 
-        # STATIC 접속 후 정상적인 Username과 Email 값 입력
-        p.driver.get(setglob.addressLogin)
-        p.driver.find_element_by_link_text("Create account").click()
-        p.driver.find_element_by_id("password").send_keys("1234567")
-        p.driver.find_element_by_id("email").send_keys("goyosebb@sure.com")
+        try:
+            # STATIC 접속 후 정상적인 Username과 Email 값 입력
+            p.driver.get(setglob.addressLogin)
+            p.driver.find_element_by_link_text("Create account").click()
+            p.driver.find_element_by_id("password").send_keys("1234567")
+            p.driver.find_element_by_id("email").send_keys("goyosebb@sure.com")
 
-        try :
+
             # 숫자 리스트를 자동으로 만들어 주는 range 함수 생성
             for num in range(0, 21):
                 p.driver.find_element_by_id("username").clear()

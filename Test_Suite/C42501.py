@@ -14,21 +14,21 @@ class C18707(unittest.TestCase):
         p.test_static_access()
         time.sleep(1)
 
-        # STATIC 비유효한 URL 접속
-        p.driver.get(setglob.address+'/project/ZLfdsfdsdsfdsfdsfsZL4/defect-list/1')
+        try:
+            # STATIC 비유효한 URL 접속
+            p.driver.get(setglob.address+'/project/ZLfdsfdsdsfdsfdsfsZL4/defect-list/1')
 
-        # Go home 버튼 클릭
-        p.driver.find_element_by_xpath("//a[contains(text(),'Go home')]").click()
-        time.sleep(1)
+            # Go home 버튼 클릭
+            p.driver.find_element_by_xpath("//a[contains(text(),'Go home')]").click()
+            time.sleep(1)
 
-        # 프로젝트 생성 클릭
-        p.driver.find_element_by_xpath("//div[2]/button/span").click()
-        time.sleep(1)
+            # 프로젝트 생성 클릭
+            p.driver.find_element_by_xpath("//div[2]/button/span").click()
+            time.sleep(1)
 
-        # 프로젝트 생성창 이름 객체
-        cpCheck = "Create Project"
+            # 프로젝트 생성창 이름 객체
+            cpCheck = "Create Project"
 
-        try :
             # 프로젝트 생성창 이름 비교 확인
             self.assertEqual(cpCheck, p.driver.find_element_by_css_selector("span.title").text)
             status_id = 1

@@ -17,13 +17,13 @@ class C18949(unittest.TestCase):
         valCheck = "Key is required."
         title = "Create Project"
 
-        # 프로젝트 생성 버튼 클릭 후 Name만 입력
-        p.driver.find_element_by_xpath("//div[2]/button/span").click()
-        p.driver.find_element_by_xpath("//mat-form-field/div/div/div/input").send_keys(setglob.pName)
-        p.driver.find_element_by_xpath('//button[contains(text(), "Submit")]').click()
-        time.sleep(3)
-
         try :
+            # 프로젝트 생성 버튼 클릭 후 Name만 입력
+            p.driver.find_element_by_xpath("//div[2]/button/span").click()
+            p.driver.find_element_by_xpath("//mat-form-field/div/div/div/input").send_keys(setglob.pName)
+            p.driver.find_element_by_xpath('//button[contains(text(), "Submit")]').click()
+            time.sleep(3)
+
             self.assertEqual(valCheck, p.driver.find_element_by_id("mat-error-1").text)
             self.assertEqual(title, p.driver.find_element_by_css_selector("span.title").text)
             time.sleep(1)

@@ -12,19 +12,19 @@ class C18711(unittest.TestCase):
         p = default_setting.default()
         p.setUp()
 
-        # 기존에 생성된 Email 입력하여 회원가입 시도
-        p.driver.get(setglob.addressLogin)
-        p.driver.find_element_by_link_text("Create account").click()
-        p.driver.find_element_by_id("username").send_keys("goyoseb")
-        p.driver.find_element_by_id("email").send_keys("admin@static.io")
-        p.driver.find_element_by_id("password").send_keys("123456789")
-        p.driver.find_element_by_xpath("//button").click()
-        time.sleep(1)
+        try:
+            # 기존에 생성된 Email 입력하여 회원가입 시도
+            p.driver.get(setglob.addressLogin)
+            p.driver.find_element_by_link_text("Create account").click()
+            p.driver.find_element_by_id("username").send_keys("goyoseb")
+            p.driver.find_element_by_id("email").send_keys("admin@static.io")
+            p.driver.find_element_by_id("password").send_keys("123456789")
+            p.driver.find_element_by_xpath("//button").click()
+            time.sleep(1)
 
-        # 기존에 생성된 Email 입력하여 회원가입 시 출력되는 팝업창 문구 확인 객체 생성
-        valCheck = "×\nAn account for that e-mail already exists. Please enter a different email."
+            # 기존에 생성된 Email 입력하여 회원가입 시 출력되는 팝업창 문구 확인 객체 생성
+            valCheck = "×\nAn account for that e-mail already exists. Please enter a different email."
 
-        try :
             # validate 문구 비교
             self.assertEqual(valCheck, p.driver.find_element_by_xpath("//ngb-alert").text)
             status_id = 1

@@ -13,7 +13,7 @@ client.user = 'goyoseb@suresofttech.com'
 client.password = 'dudcks123!'
 passMsg = 'Test Run Success !!'
 failMsg = 'Test Run Fail !!'
-run_id = 240
+run_id = 337
 
 # STATIC 서버 아이디, 패스워드, 주소 정보
 usr = "admin@static.io"
@@ -30,6 +30,9 @@ dPath = "upload.bat"
 
 # License 경로
 licpath = "hardware_check.lic"
+
+# 도구 버전
+version = "4.1.1a"
 
 class default(unittest.TestCase):
     def setUp(self):
@@ -74,24 +77,24 @@ class default(unittest.TestCase):
 
 
         # 프로젝트 전체 삭제하기
-        # try :
-        #     while 1:
-        #         driver.find_element_by_css_selector("strong > a").click()
-        #         driver.find_element_by_xpath("//div/a/span").click()
-        #         driver.find_element_by_xpath("//nav/ul/li[6]/a/span").click()
-        #         driver.find_element_by_xpath("//div[2]/button").click()
-        #         #  프로젝트 이름 텍스트로 가져오기
-        #         key_data = driver.find_element_by_xpath("//p[2]/strong").text
-        #         # key_data = key.text
-        #         driver.find_element_by_xpath("//div[2]/input").send_keys(key_data)
-        #         driver.find_element_by_xpath("//div[3]/button/span").click()
-        #
-        # # 프로젝트가 없을 시 예외처리하여 프로젝트 생성 시도
-        # except NoSuchElementException :
-        #         driver.find_element_by_xpath("//div[2]/button/span").click()
-        #         driver.find_element_by_xpath("//mat-form-field/div/div/div/input").send_keys(pName)
-        #         driver.find_element_by_xpath("//mat-form-field[2]/div/div/div/input").send_keys(pKey)
-        #         driver.find_element_by_xpath('//button[contains(text(), "Submit")]').click()
+        try :
+            while 1:
+                driver.find_element_by_css_selector("strong > a").click()
+                driver.find_element_by_xpath("//div/a/span").click()
+                driver.find_element_by_xpath("//nav/ul/li[6]/a/span").click()
+                driver.find_element_by_xpath("//div[2]/button").click()
+                #  프로젝트 이름 텍스트로 가져오기
+                key_data = driver.find_element_by_xpath("//p[2]/strong").text
+                # key_data = key.text
+                driver.find_element_by_xpath("//div[2]/input").send_keys(key_data)
+                driver.find_element_by_xpath("//div[3]/button/span").click()
+
+        # 프로젝트가 없을 시 예외처리하여 프로젝트 생성 시도
+        except NoSuchElementException :
+                driver.find_element_by_xpath("//div[2]/button/span").click()
+                driver.find_element_by_xpath("//mat-form-field/div/div/div/input").send_keys(pName)
+                driver.find_element_by_xpath("//mat-form-field[2]/div/div/div/input").send_keys(pKey)
+                driver.find_element_by_xpath('//button[contains(text(), "Submit")]').click()
 
         # 현재 파일의 폴더 위치 저장
         # pathSave = os.path.dirname(os.path.abspath(__file__))
